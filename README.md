@@ -32,7 +32,7 @@ The SIG will focus on:
   - [The NIST Secure Software Development Framework](https://www.cisa.gov/resources-tools/resources/nist-sp-800-218-secure-software-development-framework-v11-recommendations-mitigating-risk-software)
   - [IBM’s X-Force Threat Landscape Report](https://www.ibm.com/reports/threat-intelligence)
   - [The NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
-  - [Securing the AI Software Supply Chain](Securing the AI Software Supply Chain)
+  - [Securing the AI Software Supply Chain](Securing the AI Software Supply Chain}(https://research.google/pubs/securing-the-ai-software-supply-chain/)
 
 # Audience and Participants
 
@@ -48,6 +48,7 @@ The effort should be open to all involved in the field of CI/CD, AI, and Securit
 
 * Tracy Ragan ([@tracyragan](https://github.com/tracyragan)), DeployHub (TOC Sponsor)
 * Sacha Wharton ([@sachajw](https://github.com/sachajw)), i1 Solutions
+* Joshua Blengino, CloudBees
 * Brian Dawson, DeployHub
 * Jude Wellington, Jenkins Meetup Organizer
 
