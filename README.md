@@ -32,7 +32,7 @@ The SIG will focus on:
   - [The NIST Secure Software Development Framework](https://www.cisa.gov/resources-tools/resources/nist-sp-800-218-secure-software-development-framework-v11-recommendations-mitigating-risk-software)
   - [IBM’s X-Force Threat Landscape Report](https://www.ibm.com/reports/threat-intelligence)
   - [The NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
-  - [Securing the AI Software Supply Chain](Securing the AI Software Supply Chain}(https://research.google/pubs/securing-the-ai-software-supply-chain/)
+  - [Securing the AI Software Supply Chain](https://research.google/pubs/securing-the-ai-software-supply-chain/)
 
 # Audience and Participants
 
