@@ -54,7 +54,7 @@ The effort should be open to all involved in the field of CI/CD, AI, and Securit
 * Jude Wellington, Jenkins Meetup Organizer
 * Kate Scarcella ([@k8scarcella](http://github.com/k8scarcella)), Ortelius OS Security Team
 * Utkarsh Sharma ([@codeWithUtkarsh](http://github.com/codeWithUtkarsh)) (Ortelius Architecture Team)
-* Jing Chen ([@dchen5](https://github.com/jdchen5)), Security Consultant 
+* Jing Chen ([@jdchen5](https://github.com/jdchen5)), Security Consultant 
 
 ## New Members
 
