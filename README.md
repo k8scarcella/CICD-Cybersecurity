@@ -63,9 +63,10 @@ Membership to the CDF CI/CD Cybersecurity SIG is open to the public and self-dec
 New members are advised to:
 
 * Join the SIG and CDF TOC mail lists.
-*  Go through the README.md document.
-* Regularly join the SIG Meetings.
+* Join the [SIG-CICD-Cybersecurity Slack Channel](https://cdeliveryfdn.slack.com/archives/C082V7WN9K4)
+* Go through the README.md document.
 * Submit a PR to add yourself to the members list.
+* Regularly join the SIG Meetings.
 * Here are various ways to get involved:
   * Share your thoughts by joining the meetings or by posting to maillist.
   * Present a project the community you are part of is working on.
