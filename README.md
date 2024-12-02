@@ -52,9 +52,9 @@ The effort should be open to all involved in the field of CI/CD, AI, and Securit
 * Tony Carrato ([@tcarrato68](https://github.com/@tcarrato68)), Technical Security Advisor
 * Brian Dawson, DeployHub
 * Jude Wellington, Jenkins Meetup Organizer
-* Kate Scarcella ([@k8scarcella](http://github.com/k8scarcella)), Ortelius OS Security Team
-* Utkarsh Sharma ([@codeWithUtkarsh](http://github.com/codeWithUtkarsh)) (Ortelius Architecture Team)
-* Jing Chen ([@jdchen5](https://github.com/jdchen5)), Security Consultant 
+* Kate Scarcella ([@k8scarcella](http://github.com/k8scarcella)), Cybersecurity Architect Consultant, Ortelius Architecture Team
+* Utkarsh Sharma ([@codeWithUtkarsh](http://github.com/codeWithUtkarsh)) Acutro, Ortelius Architecture Team
+* Jing Chen ([@jdchen5](https://github.com/jdchen5)), Consultant HSBC 
 
 ## New Members
 
