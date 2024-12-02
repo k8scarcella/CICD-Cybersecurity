@@ -64,6 +64,7 @@ New members are advised to:
 
 * Join the SIG and CDF TOC mail lists.
 * Join the [SIG-CICD-Cybersecurity Slack Channel](https://cdeliveryfdn.slack.com/archives/C082V7WN9K4)
+* Join the [mailing list](https://lists.cd.foundation/g/CICD-Cybersecurity)
 * Go through the README.md document.
 * Submit a PR to add yourself to the members list.
 * Regularly join the SIG Meetings.
