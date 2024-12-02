@@ -47,10 +47,14 @@ The effort should be open to all involved in the field of CI/CD, AI, and Securit
 ## Members
 
 * Tracy Ragan ([@tracyragan](https://github.com/tracyragan)), DeployHub (TOC Sponsor)
-* Sacha Wharton ([@sachajw](https://github.com/sachajw)), i1 Solutions
+* Sacha Wharton ([@sachajw](https://github.com/sachajw)), i1 Solutions, Ortelius Security Team
 * Joshua Blengino, CloudBees
+* Tony Carrato ([@tcarrato68](https://github.com/@tcarrato68)), Technical Security Advisor
 * Brian Dawson, DeployHub
 * Jude Wellington, Jenkins Meetup Organizer
+* Kate Scarcella ([@k8scarcella](http://github.com/k8scarcella)), Ortelius OS Security Team
+* Utkarsh Sharma ([@codeWithUtkarsh](http://github.com/codeWithUtkarsh)) (Ortelius Architecture Team)
+* Jing Chen ([@dchen5](https://github.com/jdchen5)), Security Consultant 
 
 ## New Members
 
