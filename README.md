@@ -54,7 +54,8 @@ The effort should be open to all involved in the field of CI/CD, AI, and Securit
 * Jude Wellington, Jenkins Meetup Organizer
 * Kate Scarcella ([@k8scarcella](http://github.com/k8scarcella)), Cybersecurity Architect Consultant, Ortelius Architecture Team
 * Utkarsh Sharma ([@codeWithUtkarsh](http://github.com/codeWithUtkarsh)) Acutro, Ortelius Architecture Team
-* Jing Chen ([@jdchen5](https://github.com/jdchen5)), Consultant HSBC 
+* Jing Chen ([@jdchen5](https://github.com/jdchen5)), Consultant HSBC
+* Pawel Piwosz ([@pawelpiwosz](https://github.com/pawelpiwosz/) Tameshi, Cloud Solution Architect  
 
 ## New Members
 
