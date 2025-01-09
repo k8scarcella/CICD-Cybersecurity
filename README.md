@@ -56,6 +56,7 @@ The effort should be open to all involved in the field of CI/CD, AI, and Securit
 * Utkarsh Sharma ([@codeWithUtkarsh](http://github.com/codeWithUtkarsh)) Acutro, Ortelius Architecture Team
 * Jing Chen ([@jdchen5](https://github.com/jdchen5)), Consultant HSBC
 * Pawel Piwosz ([@pawelpiwosz](https://github.com/pawelpiwosz/) Tameshi, Cloud Solution Architect  
+* V Sreenivas ([@cnu1812](https://github.com/cnu1812)), StackUp
 
 ## New Members
 
