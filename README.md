@@ -4,7 +4,6 @@ Continuous Integration and Continuous Delivery (CI/CD) pipelines are critical to
 
 The CI/CD Cybersecurity SIG will play a pivotal role in advancing CI/CD security and supporting organizations in meeting modern cybersecurity demands. With focused efforts on integration frameworks, best practices, and emerging tooling, this SIG will address the critical need to embed security into every stage of the CI/CD pipeline, ensuring a resilient and secure software development lifecycle.
 
-
 ## Why This SIG Is Needed
 
 There is a pressing need for stronger security measures within CI/CD, as underscored by industry trends and research:
@@ -58,6 +57,8 @@ The effort should be open to all involved in the field of CI/CD, AI, and Securit
 * Pawel Piwosz ([@pawelpiwosz](https://github.com/pawelpiwosz/) Tameshi, Cloud Solution Architect  
 * V Sreenivas ([@cnu1812](https://github.com/cnu1812)), StackUp
 * Shahriyar Al Mustakim Mitul ([@mitul3737](https://github.com/mitul3737)), BRACU
+* Kris Stern ([@krisstern](https://github.com/krisstern)), Jenkins
+
 
 ## New Members
 
@@ -83,6 +84,3 @@ New members are advised to:
 
 CI/CD Cybersecurity is a [CDF Special Interest Group](https://github.com/cdfoundation/toc/tree/master/sigs).
 Governance details for this SIG can be found [here](https://github.com/cdfoundation/sig-best-practices#governance)
-
-
-
