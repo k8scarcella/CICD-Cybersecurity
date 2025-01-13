@@ -60,6 +60,7 @@ The effort should be open to all involved in the field of CI/CD, AI, and Securit
 * James Leone ([@jleonelion](https://github.com/jleonelion)) IBM Consulting, Practice Director
 * Shahriyar Al Mustakim Mitul ([@mitul3737](https://github.com/mitul3737)), BRACU
 * Kris Stern ([@krisstern](https://github.com/krisstern)), Jenkins
+* John Linford, Open Group
 
 
 ## New Members
