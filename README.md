@@ -62,6 +62,7 @@ The effort should be open to all involved in the field of CI/CD, AI, and Securit
 * Kris Stern ([@krisstern](https://github.com/krisstern)), Jenkins
 * John Linford, Open Group
 * Jasim Alam ([@jasimalam](https://github.com/jasimalam)), Astha IT
+* Fernando Castillo ([@ferjcast](https://github.com/ferjcast)), Researcher  @ TU Berlin
 
 
 ## New Members
