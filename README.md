@@ -81,7 +81,7 @@ New members are advised to:
 # Governance
 
 CI/CD Cybersecurity is a [CDF Special Interest Group](https://github.com/cdfoundation/toc/tree/master/sigs).
-Governance details for this SIG can be found [here](https://github.com/cdfoundation/sig-best-practices#governance)
+Governance details for this SIG can be found [here](https://github.com/cdfoundation/CICD-Cybersecurity#governance)
 
 
 

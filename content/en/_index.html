@@ -1,0 +1,47 @@
++++
+title = "CD Foundation CICD Cybersecurity SIG"
+linkTitle = "CD Foundation CICD Cybersecurity SIG"
+
++++
+
+<style>
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+</style>
+
+{{< blocks/cover title="CI/CD Cybersecurity SIG" height="min" color="red" >}}
+<div class="mx-auto">
+	<a class="btn btn-lg btn-primary mr-3 mb-4" href="{{< relref "/cicd-security-guide" >}}">
+		Learn More <i class="fas fa-arrow-alt-circle-right ml-2"></i>
+	</a>
+</div>
+
+Embed cybersecurity into your CI/CD pipelines to establish robust industry-standard safeguards, ensuring fast and secure software updates.
+
+{{< /blocks/cover >}}
+
+{{< blocks/section color="white" type="row">}}
+
+{{% blocks/feature icon="fa-solid fa-code" title="Code and Prebuild" url="cicd-security-guide/phase-1/" %}}
+Building security into Code and Prebuild steps of the CI/CD pipeline. 
+{{% /blocks/feature %}}
+
+{{% blocks/feature icon="fa-solid fa-hammer" title="Build and Deploy" url="cicd-security-guide/phase-2/" %}}
+Building security into the Build and Deploy steps of the CI/CD pipeline. 
+{{% /blocks/feature %}}
+
+{{< /blocks/section >}}
+{{< blocks/section color="white" type="row">}}
+
+{{% blocks/feature icon="fa-solid fa-vial-circle-check" title="Testing" url="cicd-security-guide/phase-3/" %}}
+Building security Testing into the CI/CD pipeline. 
+{{% /blocks/feature %}}
+
+{{% blocks/feature icon="fa-solid fa-triangle-exclamation" title="Reporting and Vulnerability Managment" url="cicd-security-guide/phase-4/" %}}
+Building security reporting and Vulnerability Management into the CI/CD pipeline. 
+{{% /blocks/feature %}}
+
+{{< /blocks/section >}}
