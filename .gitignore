@@ -14,3 +14,4 @@ node_modules/
 
 # Hugo
 .hugo_build.lock
+.idea/
