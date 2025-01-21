@@ -63,6 +63,7 @@ The effort should be open to all involved in the field of CI/CD, AI, and Securit
 * John Linford, Open Group
 * Jasim Alam ([@jasimalam](https://github.com/jasimalam)), Astha IT
 * Fernando Castillo ([@ferjcast](https://github.com/ferjcast)), Researcher  @ TU Berlin
+* Safeer C M ([@safeercm](https://github.com/safeercm)), DevOps and SRE Consultant
 
 
 ## New Members
