@@ -7,7 +7,7 @@ menu:
     weight: 30
 ---
 
-{{% blocks/cover title="Resources for CICD Cybersecurity" height="min"  %}}
+{{% blocks/cover title="Resources for CI/CD Cybersecurity" height="min"  %}}
 
 Attend an Event, Start a Meetup, or Submit a Talk on Cybersecurity in CI/CD.  
 
@@ -42,7 +42,7 @@ Information on Software Supply Chain Cybersecurity
 
 {{% blocks/lead color="orange" %}}
 
-Courses and Information on Cybersecurity
+Courses and Information on CI/CD and Cybersecurity
 {{% /blocks/lead %}}
 
 {{% blocks/section type="section" color="white" %}}
@@ -50,7 +50,8 @@ Courses and Information on Cybersecurity
 - [OpenSSF Courses](https://openssf.org/training/)
 - [ Google Cybersecurity Professional](https://www.coursera.org/google-certificates/cybersecurity-certificate?utm_source=google&utm_medium=institutions&utm_campaign=sou--google__med--organicsearch__cam--gwgsite__con--null__ter--null)
 - [OpenSSF Guides](https://openssf.org/resources/guides/)
-
+- [CI/CD Best Practices](https://bestpractices.cd.foundation/)
+- [CDF CI/CD Training](https://cd.foundation/training/)
 
 {{% /cdf/pad %}}
 {{% /blocks/section %}}
