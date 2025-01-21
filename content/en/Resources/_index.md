@@ -1,10 +1,10 @@
 ---
 title: "Resources"
 linkTitle: "Resources"
-weight: 70
+weight: 30
 menu:
   main:
-    weight: 70
+    weight: 30
 ---
 
 {{% blocks/cover title="Resources for CICD Cybersecurity" height="min"  %}}

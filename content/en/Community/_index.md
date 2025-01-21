@@ -1,23 +1,17 @@
 ---
-title: "Community"
-linkTitle: "Community"
-weight: 80
+title: "Join Our Team"
+linkTitle: "Join Our Team"
+weight: 20
 menu:
   main:
-    weight: 80
+    weight: 20
 ---
 
-{{% blocks/cover title="Get Involved" height="min"  %}}
+{{% blocks/cover title="Join Our Team" height="min"  %}}
 
 Help us define the security tooling needed to evolve DevOps pipelines to DevSecOps Pipelines. 
 
 {{% /blocks/cover %}}
-
-
-
-{{% blocks/lead color="orange" %}}
-Get Involved in the SIG
-{{% /blocks/lead %}}
 
 {{% blocks/section type="section" color="white" %}}
 {{% cdf/pad %}}
@@ -41,6 +35,7 @@ information on using pull requests.
 {{% /cdf/pad %}}
 
 {{% /blocks/section %}}
+
 
 
 {{% blocks/lead color="orange" %}}
