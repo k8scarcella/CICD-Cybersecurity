@@ -14,36 +14,59 @@ Help us define the security tooling needed to evolve DevOps pipelines to DevSecO
 
 {{% /blocks/cover %}}
 
-{{% blocks/section type="section"  %}}
+
+
+{{% blocks/lead color="orange" %}}
+Get Involved in the SIG
+{{% /blocks/lead %}}
+
+{{% blocks/section type="section" color="white" %}}
 {{% cdf/pad %}}
 
-## The Site and Docs
+## Join the SIG
 
-Get involved by helping the [Continuous Delivery Foundation](https://cd.foundation) define the tools and processes needed to secure software across the lifecycle. 
+Get involved by helping the [Continuous Delivery Foundation](https://cd.foundation) define the tools and processes needed to secure software across the lifecycle. Join the SIG and bring your knowledge to build cybersecurity into CI/CD workflows.
 
-We use [Hugo](https://gohugo.io/) to format and generate our website, the [Docsy](https://github.com/google/docsy) theme for styling and site structure, and [Netlify](https://www.netlify.com/) to manage the deployment of the site. 
-Hugo is an open-source static site generator that provides us with templates, content organization in a standard directory structure, and a website generation engine. You write the pages in Markdown (or HTML if you want), and Hugo wraps
-them up into a website.
-
-All submissions, including submissions by project members, require review. We use GitHub pull requests for this purpose. Consult [GitHub Help](https://help.github.com/articles/about-pull-requests/) for more
-information on using pull requests.
+- [Join the GitHub Repository](https://github.com/cdfoundation/CICD-Cybersecurity/) -  Add your name to the Read.me.  
+- [Add yourself to the Mailing List](https://lists.cd.foundation/g/CICD-Cybersecurity) - Signup to be notified of meetings and events. 
+- [Join the CDF Slack Channel](https://cdeliveryfdn.slack.com/?redir=%2Farchives%2FC082V7WN9K4%3Fname%3DC082V7WN9K4) -  Join the CDF Slack Channel and the sig-cicd-cybersecurity thread for daily information. 
 
 ## Code of conduct
 
 We expect contributors to read and observe the CD Foundation
 [Code of Conduct](https://github.com/cdfoundation/.github/blob/7c3c8e275f16fd38c4431006b49471a582059f33/CODE_OF_CONDUCT.md).
 
+All submissions, including submissions by project members, require review. We use GitHub pull requests for this purpose. Consult [GitHub Help](https://help.github.com/articles/about-pull-requests/) for more
+information on using pull requests.
+
 {{% /cdf/pad %}}
 
 {{% /blocks/section %}}
 
 
+{{% blocks/lead color="orange" %}}
+Settup Your Local Environment and Start Contributing
+{{% /blocks/lead %}}
+
+
+
+
 {{% blocks/section type="section" color="white" %}}
 {{% cdf/pad %}}
 
+## Get Started
+
+Below are directions for updating the CI/CD Cybersecurity Guide locally, and how to create your pull request. 
 
 
-## Running the site locally
+### The Hugo Server and Docsy
+
+This site uses [Hugo](https://gohugo.io/) to format and generate the website, the [Docsy](https://github.com/google/docsy) theme for styling and site structure, and [Netlify](https://www.netlify.com/) to manage the deployment of the site. 
+
+Hugo is an open-source static site generator that provides us with templates, content organization in a standard directory structure, and a website generation engine. You write the pages in Markdown (or HTML if you want), and Hugo wraps them up into a website.
+
+
+### Running the site locally
 
 You can use the included [Dockerfile](https://docs.docker.com/engine/reference/builder/) to run the site locally.
 
@@ -82,11 +105,11 @@ To clean up your system and delete the container image:
    docker-compose rm
    ```
 
-## Quick start with Netlify
+### Quick start with Netlify
 
 Here's a quick guide to updating the docs. It assumes you're familiar with the GitHub workflow and you're happy to use the automated preview of your doc updates:
 
-1. Fork the [Best Practices repo][bp-repo] on GitHub.
+1. Fork the [CI/CD Cybersecurity][https://github.com/cdfoundation/CICD-Cybersecurity/] on GitHub.
 1. Make your changes and send a pull request (PR).
 1. If you're not yet ready for a review, add "WIP" to the PR name to indicate 
   it's a work in progress. (**Don't** add the Hugo property 
@@ -101,7 +124,7 @@ Here's a quick guide to updating the docs. It assumes you're familiar with the G
 1. When you're ready for a review, add a comment to the PR, and remove any
   "WIP" markers.
 
-## Updating a single page
+### Updating a single page
 
 If you've just spotted something you'd like to change while using the docs, Docsy has a shortcut for you:
 
@@ -113,25 +136,24 @@ If you've just spotted something you'd like to change while using the docs, Docs
 
 {{% /blocks/section %}}
 
-{{% blocks/section type="section"  %}}
+{{% blocks/section type="section" color="light" %}}
 {{% cdf/pad %}}
 
-## Creating an issue
+### Creating an issue
 
-If you've found a problem in the best practices content, but you're not sure how to fix it yourself, please create an issue in the [Best Practices repo][issues].
+If you've found a problem in the best practices content, but you're not sure how to fix it yourself, please create an issue in the [CI/CD Cybersecurity][https://github.com/cdfoundation/CICD-Cybersecurity/issues].
 
-You can also create an issue about a specific page by clicking the **Create Issue**
-button in the top right hand corner of the page.
+You can also create an issue about a specific page by clicking the **Create Issue** button in the top right hand corner of the page.
 
-## Useful resources
+### Useful resources
 
 * [Docsy user guide](https://www.docsy.dev/docs/): All about Docsy, including how it manages navigation, look and feel, and multi-language support.
 * [Hugo documentation](https://gohugo.io/documentation/): Comprehensive reference for Hugo.
 * [Github Hello World!](https://guides.github.com/activities/hello-world/): A basic introduction to GitHub concepts and workflow.
 
-[bp-repo]: https://github.com/cdfoundation/CICD-Cybersecurity
-[issues]: https://github.com/cdfoundation/CICD-Cybersecurity/issues
-[coc]: https://github.com/cdfoundation/.github/blob/7c3c8e275f16fd38c4431006b49471a582059f33/CODE_OF_CONDUCT.md
+[CI/CD Cybersecurity Repo]: https://github.com/cdfoundation/CICD-Cybersecurity
+[CI/CD Cybersecurity Issues]: https://github.com/cdfoundation/CICD-Cybersecurity/issues
+[Code of Conduct]: https://github.com/cdfoundation/.github/blob/7c3c8e275f16fd38c4431006b49471a582059f33/CODE_OF_CONDUCT.md
 
 {{% /cdf/pad %}}
 
