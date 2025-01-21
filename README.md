@@ -1,5 +1,7 @@
 # CI/CD Cybersecurity SIG Overview
 
+[Website](https://cicd-cybersecurity.netlify.app/)
+
 Continuous Integration and Continuous Delivery (CI/CD) pipelines are critical touchpoints where code-level vulnerabilities, container security, and vulnerability remediation efforts converge in modern software development. As security demands rise across the software lifecycle—from code to cloud—CI/CD teams are increasingly tasked with embedding cybersecurity guardrails directly into their processes. This SIG is dedicated to advancing security tooling within CI/CD pipelines, with a focus on defining DevSecOps best practices and developing frameworks for secure pipeline implementation from code to cloud. 
 
 The CI/CD Cybersecurity SIG will play a pivotal role in advancing CI/CD security and supporting organizations in meeting modern cybersecurity demands. With focused efforts on integration frameworks, best practices, and emerging tooling, this SIG will address the critical need to embed security into every stage of the CI/CD pipeline, ensuring a resilient and secure software development lifecycle.
@@ -78,6 +80,7 @@ New members are advised to:
 * Go through the README.md document.
 * Submit a PR to add yourself to the members list.
 * Regularly join the SIG Meetings.
+* Contribute to the Documentation [CICD-cybersecurity.netlify.app](https://cicd-cybersecurity.netlify.app/community/)
 * Here are various ways to get involved:
   * Share your thoughts by joining the meetings or by posting to maillist.
   * Present a project the community you are part of is working on.
