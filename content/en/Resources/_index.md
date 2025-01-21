@@ -5,7 +5,6 @@ weight: 70
 menu:
   main:
     weight: 70
-layout: docs
 ---
 
 {{% blocks/cover title="Resources for CICD Cybersecurity" height="min"  %}}

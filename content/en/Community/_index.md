@@ -5,7 +5,6 @@ weight: 80
 menu:
   main:
     weight: 80
-layout: community
 ---
 
 {{% blocks/cover title="Get Involved" height="min"  %}}
