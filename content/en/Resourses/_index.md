@@ -8,19 +8,19 @@ menu:
 layout: docs
 ---
 
-{{% blocks/cover title="About this site" height="min" %}}
+{{% blocks/cover title="Resources for CICD Cybersecurity" height="min"  %}}
 
 This page is for Events, Whitepapers and other resources for security education and outreach. 
 
 {{% /blocks/cover %}}
 
 
-{{% blocks/section type="section" color="white" %}}
+{{% blocks/section type="section"  %}}
 {{% cdf/pad %}}
 
 {{% /blocks/section %}}
 
-{{% blocks/lead color="dark" %}}
+{{% blocks/lead  %}}
 ## Who does this relate to?
 
 {{% /blocks/lead %}}

@@ -57,7 +57,7 @@ id = "UA-00000000-0"
 [languages]
   [languages.en]
     contentDir = "content/en"
-    title = "CICD Cybersecurity SIG"
+    title = ""
     languageName = "English"
     # Weight used for sorting.
     weight = 1

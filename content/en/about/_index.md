@@ -8,15 +8,15 @@ menu:
 layout: docs
 ---
 
-{{% blocks/cover title="About this site" height="min" %}}
+{{% blocks/cover title="About This Site" height="min" %}}
 
-This site brings together guidance and best practices for integrating Cybersecurity tooling into the CI/CD Pipeline
+This Site brings together guidance and best practices for integrating Cybersecurity tooling into the CI/CD Pipeline
 based on research and experiences of industry leaders.
 
 {{% /blocks/cover %}}
 
 
-{{% blocks/section type="section" color="white" %}}
+{{% blocks/section type="section" %}}
 {{% cdf/pad %}}
 ## The Continuous Delivery Foundation
 
@@ -29,12 +29,12 @@ part of the broad and growing continuous delivery ecosystem.
 {{% /cdf/pad %}}
 {{% /blocks/section %}}
 
-{{% blocks/lead color="dark" %}}
+{{% blocks/lead %}}
 ## Who does this relate to?
 
 {{% /blocks/lead %}}
 
-{{% blocks/section type="container" color="white" %}}
+{{% blocks/section type="container" %}}
 {{% cardpane %}}
 {{< blocks/feature icon="fa-globe-americas" title="As CEO" >}}
 
@@ -95,19 +95,18 @@ part of the broad and growing continuous delivery ecosystem.
 {{% /blocks/section %}}
 
 
-{{% blocks/lead color="dark" %}}
+{{% blocks/lead color="gray" %}}
 ## Learning Cybersecurity Tooling
 {{% /blocks/lead %}}
 {{% blocks/section type="section" color="white" %}}
 {{% cdf/pad %}}
 Explore the information based on what you want to learn:
 
-- [Overview](/learn/overview) - Learn the benefits of
-  implementing cybersecurity tooling into your CI/CD pipeline and what you need to get started on your journey.
-- [Assessment](/learn/assess) - Deciding where to start? Check out the tools and resources for assessing
+- [Phase One: Code and PreBuild](cicd-security-guide/phase-1 ) - Tools and practices for adding security to repos, code and prebuild CI/CD steps 
+- [Phase Two - Build and Deploy](cicd-security-guide/phase-2) - Tools and practices for adding security to your build and deploy CI/CD steps. 
   your team's current state.
-- [Best Practices](/learn) - Ready to learn Cybersecurity? Take a look at the best practice documentation.
-- [Examples](/community) - Want to know how others implement best practices? Check out the
+- [Phase Three](cicd-seurity-guide/phase-3) -  Tools and practices for adding security to your testing CI/CD steps.
+- [Phase Four](cicd-security-guide/phase-4) -  Tools and practices for adding continuous vulnerability management and reporting to your CI/CD steps. 
   Community section.
 {{% /cdf/pad %}}
 

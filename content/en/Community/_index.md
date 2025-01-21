@@ -8,37 +8,40 @@ menu:
 layout: community
 ---
 
-{{% blocks/cover title="About this site" height="min" %}}
+{{% blocks/cover title="Get Involved" height="min"  %}}
 
-How to make updates to this site.
+Help us define the security tooling needed to evolve DevOps pipelines to DevSecOps Pipelines. 
 
 {{% /blocks/cover %}}
 
-{{% blocks/section type="section" color="white" %}}
+{{% blocks/section type="section"  %}}
 {{% cdf/pad %}}
 
-We use [Hugo](https://gohugo.io/) to format and generate our website, the
-[Docsy](https://github.com/google/docsy) theme for styling and site structure, 
-and [Netlify](https://www.netlify.com/) to manage the deployment of the site. 
-Hugo is an open-source static site generator that provides us with templates, 
-content organization in a standard directory structure, and a website generation 
-engine. You write the pages in Markdown (or HTML if you want), and Hugo wraps
+## The Site and Docs
+
+Get involved by helping the [Continuous Delivery Foundation](https://cd.foundation) define the tools and processes needed to secure software across the lifecycle. 
+
+We use [Hugo](https://gohugo.io/) to format and generate our website, the [Docsy](https://github.com/google/docsy) theme for styling and site structure, and [Netlify](https://www.netlify.com/) to manage the deployment of the site. 
+Hugo is an open-source static site generator that provides us with templates, content organization in a standard directory structure, and a website generation engine. You write the pages in Markdown (or HTML if you want), and Hugo wraps
 them up into a website.
 
-All submissions, including submissions by project members, require review. We
-use GitHub pull requests for this purpose. Consult
-[GitHub Help](https://help.github.com/articles/about-pull-requests/) for more
+All submissions, including submissions by project members, require review. We use GitHub pull requests for this purpose. Consult [GitHub Help](https://help.github.com/articles/about-pull-requests/) for more
 information on using pull requests.
-
 
 ## Code of conduct
 
 We expect contributors to read and observe the CD Foundation
-[Code of Conduct][coc].
+[Code of Conduct](https://github.com/cdfoundation/.github/blob/7c3c8e275f16fd38c4431006b49471a582059f33/CODE_OF_CONDUCT.md).
 
-## Writing style
+{{% /cdf/pad %}}
 
-See the [style guide](style-guide) for writing style guidance.
+{{% /blocks/section %}}
+
+
+{{% blocks/section type="section" color="white" %}}
+{{% cdf/pad %}}
+
+
 
 ## Running the site locally
 
@@ -81,9 +84,7 @@ To clean up your system and delete the container image:
 
 ## Quick start with Netlify
 
-Here's a quick guide to updating the docs. It assumes you're familiar with the
-GitHub workflow and you're happy to use the automated preview of your doc
-updates:
+Here's a quick guide to updating the docs. It assumes you're familiar with the GitHub workflow and you're happy to use the automated preview of your doc updates:
 
 1. Fork the [Best Practices repo][bp-repo] on GitHub.
 1. Make your changes and send a pull request (PR).
@@ -108,10 +109,17 @@ If you've just spotted something you'd like to change while using the docs, Docs
 1. If you don't already have an up to date fork of the project repo, you are prompted to get one - click **Fork this repository and propose changes** or **Update your Fork** to get an up to date version of the project to edit. The appropriate page in your fork is displayed in edit mode.
 1. Follow the rest of the [Quick start with Netlify](#quick-start-with-netlify) process above to make, preview, and propose your changes.
 
+{{% /cdf/pad %}}
+
+{{% /blocks/section %}}
+
+{{% blocks/section type="section"  %}}
+{{% cdf/pad %}}
+
 ## Creating an issue
 
-If you've found a problem in the best practices content, but you're not sure how
-to fix it yourself, please create an issue in the [Best Practices repo][issues].
+If you've found a problem in the best practices content, but you're not sure how to fix it yourself, please create an issue in the [Best Practices repo][issues].
+
 You can also create an issue about a specific page by clicking the **Create Issue**
 button in the top right hand corner of the page.
 

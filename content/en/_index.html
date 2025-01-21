@@ -10,9 +10,15 @@ linkTitle = "CD Foundation CICD Cybersecurity SIG"
     justify-content: center;
     align-items: center;
 }
+
+.td-navbar {
+    min-height: 6em;
+}
+
+
 </style>
 
-{{< blocks/cover title="CI/CD Cybersecurity SIG" height="min" color="red" >}}
+{{< blocks/cover title="CI/CD Cybersecurity SIG" height="min" >}}
 <div class="mx-auto">
 	<a class="btn btn-lg btn-primary mr-3 mb-4" href="{{< relref "/cicd-security-guide" >}}">
 		Learn More <i class="fas fa-arrow-alt-circle-right ml-2"></i>
@@ -23,7 +29,7 @@ Embed cybersecurity into your CI/CD pipelines to establish robust industry-stand
 
 {{< /blocks/cover >}}
 
-{{< blocks/section color="white" type="row">}}
+{{< blocks/section type="row">}}
 
 {{% blocks/feature icon="fa-solid fa-code" title="Code and Prebuild" url="cicd-security-guide/phase-1/" %}}
 Building security into Code and Prebuild steps of the CI/CD pipeline. 
@@ -34,7 +40,7 @@ Building security into the Build and Deploy steps of the CI/CD pipeline.
 {{% /blocks/feature %}}
 
 {{< /blocks/section >}}
-{{< blocks/section color="white" type="row">}}
+{{< blocks/section type="row">}}
 
 {{% blocks/feature icon="fa-solid fa-vial-circle-check" title="Testing" url="cicd-security-guide/phase-3/" %}}
 Building security Testing into the CI/CD pipeline. 
