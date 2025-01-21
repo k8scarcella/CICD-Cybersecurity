@@ -12,5 +12,5 @@ Securing your Continuous Integration and Continuous Deployment (CI/CD) pipeline 
 The CI/CD Workflow has been segmented into three 3 major phases:
 - Code and Prebuild - this section includes security tooling for the earliest points in the CI/CD workflow.
 - Build and Deploy - this section covers security tooling for both the build step and deployment step, regardless of where the deployment is occuring (test or production).
-- Post Deploy - Security does not stop after the binaries have been deployed. This section covers continuous vulnerability management and Dynamic Application Security Testing (DAST).
+- Post Deploy - security does not stop after the binaries have been deployed. This section covers continuous vulnerability management and Dynamic Application Security Testing (DAST).
 

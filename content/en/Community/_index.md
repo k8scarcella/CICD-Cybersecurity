@@ -13,7 +13,7 @@ Help us define the security tooling needed to evolve DevOps pipelines to DevSecO
 
 {{% /blocks/cover %}}
 
-{{% blocks/section type="section" color="white" %}}
+{{% blocks/section type="row" color="white" %}}
 {{% cdf/pad %}}
 
 ## Join the SIG
@@ -45,7 +45,7 @@ Settup Your Local Environment and Start Contributing
 
 
 
-{{% blocks/section type="section" color="white" %}}
+{{% blocks/section type="row" color="white" %}}
 {{% cdf/pad %}}
 
 ## Get Started
@@ -130,7 +130,7 @@ If you've just spotted something you'd like to change while using the docs, Docs
 
 {{% /blocks/section %}}
 
-{{% blocks/section type="section" color="light" %}}
+{{% blocks/section type="row" color="light" %}}
 {{% cdf/pad %}}
 
 ### Creating an issue

@@ -10,7 +10,7 @@ As software moves from development to production, the build and deploy stages pl
 
 Integrating security into these phases ensures that your code is not only functional but also safeguarded against threats. From dynamic analysis during builds to automated scans for container security and misconfigurations, the right tools can help identify risks before deployment. Moreover, secure deployment pipelines prevent unauthorized changes, enforce compliance, and enable safe rollouts.
 
-This page explores the key security tools and best practices for the build and deploy phases, ensuring your applications are delivered securely and maintain resilience in production environments. Learn how to protect your software, infrastructure, and users by embedding security into every step of your delivery process.
+This page explores the key security tools and best practices for the build and deploy phase, ensuring your applications are delivered securely and maintain resilience in production environments. Learn how to protect your software, infrastructure, and users by embedding security into every step of your delivery process.
 
 ## Open Source Tooling
 
