@@ -9,11 +9,11 @@ menu:
 
 {{% blocks/cover title="Resources for CI/CD Cybersecurity" height="min"  %}}
 
-Attend an Event, Start a Meetup, or Submit a Talk on Cybersecurity in CI/CD.  
+Attend an Event, Start a Meetup, or Submit a Talk on Cybersecurity in CI/CD.
 
 {{% /blocks/cover %}}
 
-{{% blocks/section type="section" color="white" %}}
+{{% blocks/section type="row" color="white" %}}
 {{% cdf/pad %}}
 <strong>Learn About Cybersecurity and Spread the Word</strong>
 
@@ -29,14 +29,14 @@ Welcome to our CI/CD Cybersecurity Resource Hub, your go-to destination for insi
 Information on Software Supply Chain Cybersecurity
 {{% /blocks/lead %}}
 
-{{% blocks/section type="section" color="white" %}}
-{{% cdf/pad %}}
+{{% blocks/section type="row" color="white" %}}
+{{% cdf/center %}}
 - [The NIST Secure Software Development Framework](https://www.cisa.gov/resources-tools/resources/nist-sp-800-218-secure-software-development-framework-v11-recommendations-mitigating-risk-software)
 - [Google Cybersecurity Professional](https://www.ibm.com/reports/threat-intelligence)
 - [The NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
 - [Securing the AI Software Supply Chain](https://research.google/pubs/securing-the-ai-software-supply-chain/)
 
-{{% /cdf/pad %}}
+{{% /cdf/center %}}
 {{% /blocks/section %}}
 
 
@@ -45,27 +45,25 @@ Information on Software Supply Chain Cybersecurity
 Courses and Information on CI/CD and Cybersecurity
 {{% /blocks/lead %}}
 
-{{% blocks/section type="section" color="white" %}}
-{{% cdf/pad %}}
+{{% blocks/section type="row" color="white" %}}
+{{% cdf/center %}}
 - [OpenSSF Courses](https://openssf.org/training/)
 - [ Google Cybersecurity Professional](https://www.coursera.org/google-certificates/cybersecurity-certificate?utm_source=google&utm_medium=institutions&utm_campaign=sou--google__med--organicsearch__cam--gwgsite__con--null__ter--null)
 - [OpenSSF Guides](https://openssf.org/resources/guides/)
 - [CI/CD Best Practices](https://bestpractices.cd.foundation/)
 - [CDF CI/CD Training](https://cd.foundation/training/)
 
-{{% /cdf/pad %}}
+{{% /cdf/center %}}
 {{% /blocks/section %}}
 
 {{% blocks/lead color="orange" %}}
 
-Meetups
+Attend a Meetup
 {{% /blocks/lead %}}
 
 
-{{% blocks/section type="section" color="white" %}}
-{{% cdf/pad %}}
-
-<strong>Attend a Meetup</strong>
+{{% blocks/section type="row" color="white" %}}
+{{% cdf/center %}}
 
 - [Jenkins Meetups](https://www.meetup.com/topics/jenkins/)
 - [Jenkins Online Meetup](https://www.meetup.com/Jenkins-online-meetup/)
@@ -76,14 +74,5 @@ Meetups
 - [Cybersecurity Meetups](https://www.meetup.com/topics/cybersecurity/)
 
 
-{{% /cdf/pad %}}
+{{% /cdf/center %}}
 {{% /blocks/section %}}
-
-
-
-
-
-
-
-
-
