@@ -67,7 +67,8 @@ The effort should be open to all involved in the field of CI/CD, AI, and Securit
 * Fernando Castillo ([@ferjcast](https://github.com/ferjcast)), Researcher  @ TU Berlin
 * Safeer C M ([@safeercm](https://github.com/safeercm)), DevOps and SRE Consultant
 * Adam Roper ([@roperscrossroads](https://github.com/roperscrossroads)), Platforms & Infrastructure Specialist
-
+* Alex Wiecehrt ([@AlexanderWiechert](https://github.com/AlexanderWiechert)), DevOps and Cloud Solution Architect  
+* 
 ## New Members
 
 Membership to the CDF CI/CD Cybersecurity SIG is open to the public and self-declared.
