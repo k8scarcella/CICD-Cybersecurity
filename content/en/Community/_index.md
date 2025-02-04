@@ -37,6 +37,24 @@ information on using pull requests.
 {{% /blocks/section %}}
 
 
+{{% blocks/lead color="orange" %}}
+Meet Kate Scarcella, SIG Chairperson
+{{% /blocks/lead %}}
+
+
+{{% blocks/section type="row" color="white" %}}
+{{% cdf/pad %}}
+
+Kate is an experienced Security Architect with a demonstrated history of working in the information technology and services industry. Skilled in NERC CIPC Requirements, Management, Leadership, Security, and Project Management, Kate is the perfect candidate to lead a group of DevOps engineers through the process of meeting compliance and security standards. She has a strong engineering background with a Masters of Science focused in Computer and Information Systems Security/Information Assurance from Nova Southeastern University. Kate has served as a Chief Cybersecurity Architect working for companies such as IBM, Micro Focus and McAfee. Learn more about Kate and reach out to her on [LinkedIn](https://www.linkedin.com/in/katescarcellaconnected/). 
+<div style="text-align:center;width:100%;margin-top:50px">
+<p></p>
+<img src="/Images/katescarcella.jpg" alt="Kate Scarcella" height="289px" width="289px" />
+</div>
+
+
+{{% /cdf/pad %}}
+{{% /blocks/section %}}
+
 
 {{% blocks/lead color="orange" %}}
 Settup Your Local Environment and Start Contributing
