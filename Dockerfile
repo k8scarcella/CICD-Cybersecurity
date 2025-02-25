@@ -1,32 +1,28 @@
-# Use Ubuntu as the base image
-FROM ubuntu:latest
+# Use Alpine Linux version 3.21 as the base image (version pinned on the 25th of February 2025)
+FROM alpine:3.21
 
-# Set environment variables
-ENV DEBIAN_FRONTEND=noninteractive
-
-# Install required dependencies
-RUN apt update && apt install -y \
-    curl \
+# Update package repository and install required packages:
+# - git: for version control
+# - go: for the Go programming language
+# - hugo: for static site generation
+RUN apk update && apk add --no-cache \
     git \
-    nodejs \
-    npm \
-    golang \
-    hugo \
-    && rm -rf /var/lib/apt/lists/*
+    go \
+    hugo
 
-# Install global npm packages
-RUN npm install -g sass autoprefixer postcss-cli postcss
+# Create the site directory
+RUN mkdir -p /site
 
-# Set the work directory to a mountable location
-WORKDIR /site
-
-# Fix Git ownership issue inside the container
+# Configure Git to mark the site directory as a safe directory
 RUN git config --global --add safe.directory /site
 
-# Expose the default Hugo server port
+# Set the working directory to the site directory
+WORKDIR /site
+
+# Expose Hugo's default server port
 EXPOSE 1313
 
-# Start Hugo server when the container runs
+# Define the default command to start the Hugo server when the container runs
 CMD ["hugo", "serve", "--bind", "0.0.0.0", "--baseURL", "http://localhost"]
 
 # To build and run this container do:

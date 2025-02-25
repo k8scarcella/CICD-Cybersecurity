@@ -1,7 +1,7 @@
 services:
   hugo:
     build: .
-    container_name: cicd-sig-cybersecurity-hugo-dev
+    image: cicd-sig-cybersecurity-hugo-dev
     volumes:
       - .:/site
     ports:
