@@ -20,7 +20,12 @@ The inclusion of security tooling in the Continuous Integration and Continuous D
 
 ## Secure Software Development Framework (S2DF)
 
-The Secure Software Development Framework (SSDF), developed by the National Institute of Standards and Technology (NIST), provides a comprehensive approach to ensuring security across the software development process, from initial design through deployment and maintenance. The framework outlines key practices and guidelines that organizations can implement to secure their software development lifecycle (SDLC), with a particular emphasis on integrating security into automated processes. Three sections of this document relate to DevSecOps tooling and practices:
+The Secure Software Development Framework (SSDF), developed by the National Institute of Standards and Technology (NIST), provides a comprehensive approach to ensuring security across the software development process, from initial design through deployment and maintenance. The framework outlines key practices and guidelines that organizations can implement to secure their software development lifecycle (SDLC), with a particular emphasis on integrating security into automated processes. This guide focuses specifically on DevSecOps tooling and practices:
+
+- Prepare the Organization (PO): Organizations should ensure that their people,
+processes, and technology are prepared to perform secure software development at the
+organization level. Many organizations will find some PO practices to also be applicable
+to subsets of their software development, like individual development groups or projects.
 
 - Protect the Software (PS): Organizations should protect all components of their software from tampering and unauthorized access.
 
@@ -34,7 +39,7 @@ The following section defines the “Task” as defined in the S2DF document wit
 
 ---
 
-### Protect the Software (PS)
+### Protect the Organization (PO)
 
 **PO.3 Implement Supporting Toolchains**
 
@@ -42,32 +47,27 @@ Use automation to reduce human effort and improve the accuracy, reproducibility,
 
 **Open-Source Tools to Achieve** 
 
-_Workflow Auditing_
+_Workflow Framework_
 
-- [Intoto](https://in-toto.io/docs/what-is-in-toto/)
+- [In-toto framework](https://in-toto.io/docs/what-is-in-toto/)
 
-_Git Commit Signing:_
 
-- [GitHub Signing](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits)
-- [GitLab Signing](https://docs.gitlab.com/ee/user/project/repository/signed_commits/)
-- [Bit Bucket](https://confluence.atlassian.com/bitbucketserver/using-gpg-keys-913477014.html)
+<br>
 
-_Repo Security Scanning_
-- [GitHub CodeQL](https://codeql.github.com/)
-- [AquaSec Trivy](https://www.aquasec.com/products/trivy/)
-- [Dependabot](https://docs.github.com/en/enterprise-server@3.4/admin/configuration/configuring-github-connect/enabling-dependabot-for-your-enterprise)
-- [FrogBot](https://github.com/jfrog/frogbot)
-- [Allstar](https://openssf.org/projects/allstar/)
+---
 
-_SCA Code Scanning Tools_
+### Protect the Software (PS)
 
-- [Veracode](https://www.veracode.com/)
-- [SonarQube](https://www.sonarsource.com/open-source-editions/)
-- [Semgrep](https://github.com/semgrep/semgrep)
-- [Bandit for Python](https://github.com/PyCQA/bandit)
-- [Checkmarx KICS](https://github.com/Checkmarx/kics)
-- [Cppcheck for C##](https://github.com/danmar/cppcheck)
-- [FindSecBugs](https://github.com/find-sec-bugs/find-sec-bugs)
+**PS.1.1 Store all forms of code **
+
+PS.1.1: Store all forms of code – including source code, executable code, and configuration-as-code – based on the principle of least privilege so that only authorized personnel, tools, services, etc. have access.
+
+**Open-Source Tools to Achieve** 
+
+_Source Repositories_
+
+- [GitHub](https://git-hub.com/)
+- [SourceForge](https://sourceforge.net/)
 
 
 <br>
@@ -87,13 +87,25 @@ _SBOM Generation and Attestation Tools:_
 - [CycloneDX](https://cyclonedx.org/)
 - [SPDX](https://github.com/opensbom-generator/spdx-sbom-generator)
 
-
 _Binary Repositories:_
 
 - [ArtifactHub](https://artifacthub.io/)
 - [JFrog Artifactory OSS](https://jfrog.com/community/download-artifactory-oss/)
 - [Sonatype Nexus OSS](https://www.sonatype.com/products/nexus-community-edition-download)
 - [Harbor](https://goharbor.io/) 
+
+_Git Commit Signing:_
+
+- [GitHub Signing](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits)
+- [GitLab Signing](https://docs.gitlab.com/ee/user/project/repository/signed_commits/)
+- [Bit Bucket](https://confluence.atlassian.com/bitbucketserver/using-gpg-keys-913477014.html)
+
+_Repo Security Scanning_
+- [GitHub CodeQL](https://codeql.github.com/)
+- [AquaSec Trivy](https://www.aquasec.com/products/trivy/)
+- [Dependabot](https://docs.github.com/en/enterprise-server@3.4/admin/configuration/configuring-github-connect/enabling-dependabot-for-your-enterprise)
+- [FrogBot](https://github.com/jfrog/frogbot)
+- [Allstar](https://openssf.org/projects/allstar/)
 
 
 **PW.7 Review and/or Analyze Human-Readable Code**
@@ -115,6 +127,7 @@ Help identify vulnerabilities so that they can be corrected before the software 
 - [Checkmarx KICS](https://github.com/Checkmarx/kics)
 - [Cppcheck for C##](https://github.com/danmar/cppcheck)
 - [FindSecBugs](https://github.com/find-sec-bugs/find-sec-bugs)
+
 
 <br>
 
