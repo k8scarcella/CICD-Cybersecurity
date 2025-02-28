@@ -20,7 +20,7 @@ The inclusion of security tooling in the Continuous Integration and Continuous D
 
 ## Secure Software Development Framework (S2DF)
 
-The Secure Software Development Framework (SSDF), developed by the National Institute of Standards and Technology (NIST), provides a comprehensive approach to ensuring security across the software development process, from initial design through deployment and maintenance. The framework outlines key practices and guidelines that organizations can implement to secure their software development lifecycle (SDLC), with a particular emphasis on integrating security into automated processes. This guide focuses specifically on DevSecOps tooling and practices:
+The [Secure Software Development Framework (SSDF)](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-218.pdf), developed by the National Institute of Standards and Technology (NIST), provides a comprehensive approach to ensuring security across the software development process, from initial design through deployment and maintenance. The framework outlines key practices and guidelines that organizations can implement to secure their software development lifecycle (SDLC), with a particular emphasis on integrating security into automated processes. This guide focuses specifically on DevSecOps tooling and practices:
 
 - Prepare the Organization (PO): Organizations should ensure that their people,
 processes, and technology are prepared to perform secure software development at the
