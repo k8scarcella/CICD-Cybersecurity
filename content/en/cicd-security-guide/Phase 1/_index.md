@@ -18,9 +18,9 @@ Compliance Policies and Practices are being defined across both public and priva
 
 The inclusion of security tooling in the Continuous Integration and Continuous Deployment (CI/CD) pipeline is one crucial area where policy and practices can be implemented and automated. With the rapid pace of development and deployment in modern DevOps environments, security must be seamlessly embedded into each phase of the pipeline to protect applications and data from vulnerabilities and attacks.
 
-## Secure Software Development Framework (S2DF)
+## Secure Software Development Framework
 
-The [Secure Software Development Framework (SSDF)](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-218.pdf), developed by the National Institute of Standards and Technology (NIST), provides a comprehensive approach to ensuring security across the software development process, from initial design through deployment and maintenance. The framework outlines key practices and guidelines that organizations can implement to secure their software development lifecycle (SDLC), with a particular emphasis on integrating security into automated processes. This guide focuses specifically on DevSecOps tooling and practices:
+The [Secure Software Development Framework](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-218.pdf), developed by the National Institute of Standards and Technology (NIST), provides a comprehensive approach to ensuring security across the software development process, from initial design through deployment and maintenance. The framework outlines key practices and guidelines that organizations can implement to secure their software development lifecycle (SDLC), with a particular emphasis on integrating security into automated processes. This guide focuses specifically on DevSecOps tooling and practices:
 
 - Prepare the Organization (PO): Organizations should ensure that their people,
 processes, and technology are prepared to perform secure software development at the
@@ -45,7 +45,7 @@ The following section defines the “Task” as defined in the S2DF document wit
 
 Use automation to reduce human effort and improve the accuracy, reproducibility, usability, and comprehensiveness of security practices throughout the SDLC, as well as provide a way to document and demonstrate the use of these practices. Toolchains and tools may be used at different levels of the organization, such as organization-wide or project-specific, and may address a particular part of the SDLC, like a build pipeline.
 
-**Open-Source Tools to Achieve** 
+<u>Open-Source Tools to Achieve:</u>
 
 _Workflow Framework_
 
@@ -62,7 +62,7 @@ _Workflow Framework_
 
 PS.1.1: Store all forms of code – including source code, executable code, and configuration-as-code – based on the principle of least privilege so that only authorized personnel, tools, services, etc. have access.
 
-**Open-Source Tools to Achieve** 
+<u>Open-Source Tools to Achieve:</u>
 
 _Source Repositories_
 
@@ -80,7 +80,7 @@ _Source Repositories_
 
 Ensure safe use of components (e.g., software libraries, modules, middleware, frameworks) from commercial, open-source, and other third-party developers for use by the organization’s software. Implement a Software Bill of Materials (SBOM) scan to obtain provenance information for each software component. Establish one or more software repositories to host sanctioned and vetted open-source components.
 
-**Open-Source Tools to Achieve:**
+<u>Open-Source Tools to Achieve:</u>
 
 _SBOM Generation and Attestation Tools:_
 
@@ -112,7 +112,7 @@ _Repo Security Scanning_
 
 Help identify vulnerabilities so that they can be corrected before the software is released to prevent exploitation. Using automated methods lowers the effort and resources needed to detect vulnerabilities. Human-readable code includes source code, scripts, and any other form of code that an organization deems human-readable.
 
-**Open-Source Tools to Achieve:**
+<u>Open-Source Tools to Achieve:</u>
 
 - [OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/)
 - [Dependency-Track](https://github.com/DependencyTrack/dependency-track)
@@ -138,7 +138,6 @@ Help identify vulnerabilities so that they can be corrected before the software 
 Task: Identify and Respond to Vulnerabilities
 How to Achieve: Organizations should identify residual vulnerabilities in their software releases and respond appropriately to address those vulnerabilities and prevent similar ones from occurring in the future.
 
-Tools:
+<u>Open-Source Tools to Achieve:</u>
 
-(This section requires specific tools and details, which can be expanded upon as per requirements)
-This guide serves as a foundation for integrating security practices into the CI/CD pipeline, ensuring that security remains an essential focus throughout the software development process.
+
