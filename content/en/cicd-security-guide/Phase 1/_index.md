@@ -58,7 +58,7 @@ _Workflow Framework_
 
 ### Protect the Software (PS)
 
-**PS.1.1 Store all forms of code **
+**PS.1.1 Store all forms of code**
 
 PS.1.1: Store all forms of code – including source code, executable code, and configuration-as-code – based on the principle of least privilege so that only authorized personnel, tools, services, etc. have access.
 
