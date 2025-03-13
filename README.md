@@ -69,6 +69,7 @@ The effort should be open to all involved in the field of CI/CD, AI, and Securit
 * Adam Roper ([@roperscrossroads](https://github.com/roperscrossroads)), Platforms & Infrastructure Specialist
 * Shiv Ganesan ([@ganshiv](https://github.com/ganshiv)), DevSecOps and Platform Engineer
 * Alex Wiecehrt ([@AlexanderWiechert](https://github.com/AlexanderWiechert)), DevOps and Cloud Solution Architect
+* Ann Marie Fred ([@amfred](https://github.com/amfred)), SPSE at Red Hat
 * Minyi Chen ([@minyihc](https://github.com/minyihc)), Fidelity Investments  
 
 ## New Members
