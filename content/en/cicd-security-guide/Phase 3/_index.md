@@ -10,27 +10,10 @@ The post-deploy stage of your software delivery pipeline is where your applicati
 
 This phase includes tools and practices for continuous monitoring, vulnerability patch management, and incident response. From runtime application self-protection (RASP) to real-time threat detection and log analysis, post-deploy security ensures your application remains secure, compliant, and reliable in production.
 
-## Open Source Tools
+## Compliance Goals
 
-### Post Build Software Bill of Material Tools
-- [Anchore Syft](https://github.com/anchore/syft)
-- [Microsoft SBOM Tool](https://github.com/microsoft/sbom-tool)
-- [OpenSSF SPDX](https://github.com/opensbom-generator/spdx-sbom-generator)
-- [bomctl](https://openssf.org/projects/bomctl/)
+Compliance Policies and Practices are being defined across both public and private sectors. Specifically, the US Executive Order (EO) on Improving the Nation’s Cybersecurity and the EU Cyber Resilience Act (CRA) aim to define how to manage threats and vulnerabilities by establishing standardized frameworks for cybersecurity requirements. These frameworks cover the complete software development process, from design through ongoing monitoring of production software assets.
 
-### DAST
 
-- [OWASP Zap](https://github.com/OWASP/www-project-zap)
-- [W3AF](https://github.com/andresriancho/w3af)
-- [Arachni](https://github.com/Arachni/arachni)
-- [Nikto](https://github.com/sullo/nikto)
 
-### Vulnerability Databases
-- [OSV.dev](https://osv.dev/)
-
-### Continuous Vulnerability Patch Management
-- [Ortelius](https://www.ortelius.io)
-
-### Application Security Compliance Reporting
-- [OpenSSF Scorecard](https://openssf.org/projects/scorecard/)
 
