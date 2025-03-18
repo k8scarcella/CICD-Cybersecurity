@@ -24,6 +24,8 @@ Get involved by helping the [Continuous Delivery Foundation](https://cd.foundati
 - [Add yourself to the Mailing List](https://lists.cd.foundation/g/CICD-Cybersecurity) - Signup to be notified of meetings and events. 
 - [Join the CDF Slack Channel](https://cdeliveryfdn.slack.com/?redir=%2Farchives%2FC082V7WN9K4%3Fname%3DC082V7WN9K4) -  Join the CDF Slack Channel and the sig-cicd-cybersecurity thread for daily information. 
 
+<br />
+
 ## Code of conduct
 
 We expect contributors to read and observe the CD Foundation
@@ -36,9 +38,10 @@ information on using pull requests.
 
 {{% /blocks/section %}}
 
+<br />
 
 {{% blocks/lead color="orange" %}}
-Meet Kate Scarcella, SIG Chairperson
+### Meet Kate Scarcella, SIG Chairperson
 {{% /blocks/lead %}}
 
 
@@ -57,10 +60,8 @@ Kate is an experienced Security Architect with a demonstrated history of working
 
 
 {{% blocks/lead color="orange" %}}
-Settup Your Local Environment and Start Contributing
+### Set up Your Local Environment and Start Contributing
 {{% /blocks/lead %}}
-
-
 
 
 {{% blocks/section type="row" color="white" %}}
@@ -70,6 +71,7 @@ Settup Your Local Environment and Start Contributing
 
 Below are directions for updating the CI/CD Cybersecurity Guide locally, and how to create your pull request. 
 
+<br />
 
 ### The Hugo Server and Docsy
 
@@ -77,6 +79,7 @@ This site uses [Hugo](https://gohugo.io/) to format and generate the website, th
 
 Hugo is an open-source static site generator that provides us with templates, content organization in a standard directory structure, and a website generation engine. You write the pages in Markdown (or HTML if you want), and Hugo wraps them up into a website.
 
+<br />
 
 ### Running the site locally
 
@@ -93,35 +96,38 @@ You can use the included [Dockerfile](https://docs.docker.com/engine/reference/b
 1. Build the docker image:
 
    ```bash
-   docker-compose build
+   docker compose build
    ```
 
 1. Run the built image:
 
    ```bash
-   docker-compose up
+   docker compose up
    ```
 
 1. Open the address `http://localhost:1313` in your web browser to load the
    docsy-example homepage. You can now make changes to the source files, those
    changes will be live-reloaded in your browser.
 
+<br />
 
-To clean up your system and delete the container image:
+### To clean up your system and delete the container image:
 
 1. Stop Docker Compose with **Ctrl + C**.
 
 1. Remove the produced images
 
    ```bash
-   docker-compose rm
+   docker compose rm
    ```
+   
+<br />
 
 ### Quick start with Netlify
 
 Here's a quick guide to updating the docs. It assumes you're familiar with the GitHub workflow and you're happy to use the automated preview of your doc updates:
 
-1. Fork the [CI/CD Cybersecurity][https://github.com/cdfoundation/CICD-Cybersecurity/] on GitHub.
+1. Fork the [CI/CD Cybersecurity](https://github.com/cdfoundation/CICD-Cybersecurity/) on GitHub.
 1. Make your changes and send a pull request (PR).
 1. If you're not yet ready for a review, add "WIP" to the PR name to indicate 
   it's a work in progress. (**Don't** add the Hugo property 
@@ -135,6 +141,8 @@ Here's a quick guide to updating the docs. It assumes you're familiar with the G
   the content.
 1. When you're ready for a review, add a comment to the PR, and remove any
   "WIP" markers.
+
+<br />
 
 ### Updating a single page
 
@@ -151,11 +159,15 @@ If you've just spotted something you'd like to change while using the docs, Docs
 {{% blocks/section type="row" color="light" %}}
 {{% cdf/pad %}}
 
+<br />
+
 ### Creating an issue
 
-If you've found a problem in the best practices content, but you're not sure how to fix it yourself, please create an issue in the [CI/CD Cybersecurity][https://github.com/cdfoundation/CICD-Cybersecurity/issues].
+If you've found a problem in the best practices content, but you're not sure how to fix it yourself, please create an issue in the [CI/CD Cybersecurity repository](https://github.com/cdfoundation/CICD-Cybersecurity/issues).
 
 You can also create an issue about a specific page by clicking the **Create Issue** button in the top right hand corner of the page.
+
+<br />
 
 ### Useful resources
 
