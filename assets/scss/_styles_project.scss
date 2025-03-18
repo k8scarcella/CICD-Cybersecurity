@@ -11,6 +11,25 @@
   margin-top: 64px;
 }
 
+.td-block-padding {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.td-content p, .td-content li, .td-content td {
+  margin: 0;
+}
+
+.td-box--orange {
+  color: #242325;
+}
+
+.td-footer {
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
 @media (max-width: 767px) {
   nav.td-navbar {
     flex-direction: column;
@@ -24,5 +43,10 @@
 
   .td-content {
     margin-top: 0;
+  }
+
+  .td-block-padding, .td-default main section {
+    padding-top: 42px;
+    padding-bottom: 42px;
   }
 }
