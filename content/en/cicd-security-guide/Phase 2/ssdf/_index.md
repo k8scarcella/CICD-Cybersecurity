@@ -3,7 +3,7 @@ title: "Secure Software Development Framework"
 linkTitle: "Secure Software Development Framework"
 weight: 4
 description: >
- Secure Software Development Framework and CI/CD Steps
+ Secure Software Development Framework and Build/Deploy CI/CD Steps
 ---
 
 ## Achieving Build and Deploy Tasks of the Secure Software Development Framework

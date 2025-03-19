@@ -3,7 +3,7 @@ title: "Secure Software Development Framework"
 linkTitle: "Secure Software Development Framework"
 weight: 4
 description: >
- Secure Software Development Framework and CI/CD Steps
+ Secure Software Development Framework and Code/Prebuild CI/CD Steps
 ---
 
 ## Achieving Code and Prebuild Tasks of the Secure Software Development Framework
@@ -31,5 +31,3 @@ The [Secure Software Development Framework](https://nvlpubs.nist.gov/nistpubs/sp
 | Respond to Vulnerabilities (RV)    | Organizations should identify residual vulnerabilities in their software releases and respond appropriately to address those vulnerabilities and prevent similar ones from occurring in the future.        
 
 
-
-<br>
