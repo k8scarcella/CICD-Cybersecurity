@@ -35,6 +35,8 @@ The SIG will focus on:
   - [The NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
   - [Securing the AI Software Supply Chain](https://research.google/pubs/securing-the-ai-software-supply-chain/)
 
+Additional References include the [Proactive Software Supply Chain Risk Management Framework](https://s3c2.org/psscrm/)
+
 # Audience and Participants
 
 The effort should be open to all involved in the field of CI/CD, AI, and Security. Within CDF it is essential we engage our broader community, including:
