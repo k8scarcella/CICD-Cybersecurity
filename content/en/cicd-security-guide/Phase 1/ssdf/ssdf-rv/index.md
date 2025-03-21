@@ -14,6 +14,7 @@ How to Achieve: Organizations should identify residual vulnerabilities in their 
 
 <u>Open-Source Tools to Achieve:</u>
 
+
 _Identify Vulnerabilities_
 
 _Static Application Security Testing (SAST):_
