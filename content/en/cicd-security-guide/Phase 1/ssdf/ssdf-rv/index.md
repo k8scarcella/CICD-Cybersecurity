@@ -42,5 +42,7 @@ _Respond to Vulnerabilities_
 _Prevent Similar Future Vulnerabilities_
 
 [Open Policy Agent (OPA)]( https://www.openpolicyagent.org/)
+
 [Sigstore](https://www.sigstore.dev/)
+
 [in-toto](https://in-toto.io/)
