@@ -36,11 +36,15 @@ _Software Composition Analysis (SCA):_
 _Respond to Vulnerabilities_
 
 [OWASP Defectdojo](https://www.defectdojo.org/)
+
 [GitLab Security Scanning](https://docs.gitlab.com/ee/user/application_security/)
+
 [Tsunami Security Scanner](https://github.com/google/tsunami-security-scanner)
 
 _Prevent Similar Future Vulnerabilities_
 
 [Open Policy Agent (OPA)]( https://www.openpolicyagent.org/)
+
 [Sigstore](https://www.sigstore.dev/)
+
 [in-toto](https://in-toto.io/)
