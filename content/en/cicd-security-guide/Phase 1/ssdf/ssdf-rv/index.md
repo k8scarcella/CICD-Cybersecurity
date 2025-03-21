@@ -1,5 +1,5 @@
 ---
-title: "Respond to Vulnerabilities (RV)"
+title: ""
 linkTitle: "Respond to Vulnerabilities (RV)"
 weight: 8
 description: >
