@@ -10,6 +10,7 @@ description: >
 ### Respond to Vulnerabilities (RV)
 
 **RV.1 Identify and Confirm Vulnerabilities on an Ongoing Basis**
+
 Task: Identify and Respond to Vulnerabilities
 How to Achieve: Organizations should identify residual vulnerabilities in their software releases and respond appropriately to address those vulnerabilities and prevent similar ones from occurring in the future.
 
