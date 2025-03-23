@@ -110,6 +110,5 @@ Welcome to our CI/CD Cybersecurity Resource Hub, your go-to destination for insi
     <li><a style="text-decoration: none" href="https://www.meetup.com/topics/cybersecurity/">Cybersecurity Meetups</a></li>
 </ul>
 
-
 {{% /cdf/center %}}
 {{% /blocks/section %}}

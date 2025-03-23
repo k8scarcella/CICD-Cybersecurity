@@ -54,10 +54,8 @@ Kate is an experienced Security Architect with a demonstrated history of working
 <img src="/Images/katescarcella.jpg" alt="Kate Scarcella" height="289px" width="289px" />
 </div>
 
-
 {{% /cdf/pad %}}
 {{% /blocks/section %}}
-
 
 {{% blocks/lead color="orange" %}}
 ### Set up Your Local Environment and Start Contributing
@@ -120,7 +118,7 @@ You can use the included [Dockerfile](https://docs.docker.com/engine/reference/b
    ```bash
    docker compose rm
    ```
-   
+
 <br />
 
 ### Quick start with Netlify
