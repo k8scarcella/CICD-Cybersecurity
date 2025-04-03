@@ -22,7 +22,7 @@ The CI/CD Cybersecurity SIG aims to:
 - Support Framework Compliance: Identify and map open source security tools to established secure software development frameworks and standards for integration into CI/CD pipelines.
 
 - Promote Security Best Practices: Encourage adherence to security guardrails within CI/CD workflows, with an emphasis on key domains such as, Code-level security, repo security, Container security, and Vulnerability management
-- 
+  
 - Track and Align Emerging Tools:  Monitor and catalog emerging security tools that support evolving CI/CD requirements and align with recognized security standards and best practices.
 
 
