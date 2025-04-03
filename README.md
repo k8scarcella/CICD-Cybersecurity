@@ -4,12 +4,14 @@
 
 Continuous Integration and Continuous Delivery (CI/CD) pipelines are critical touchpoints where code-level vulnerabilities, container security, and vulnerability remediation efforts converge in modern software development. As security demands rise across the software lifecycle—from code to cloud—CI/CD teams are increasingly tasked with embedding cybersecurity guardrails directly into their processes. This SIG is dedicated to advancing security tooling within CI/CD pipelines, with a focus on defining DevSecOps best practices and developing frameworks for secure pipeline implementation from code to cloud. 
 
-The CI/CD Cybersecurity SIG will play a pivotal role in advancing CI/CD security and supporting organizations in meeting modern cybersecurity demands. With focused efforts on integration frameworks, best practices, and emerging tooling, this SIG will address the critical need to embed security into every stage of the CI/CD pipeline, ensuring a resilient and secure software development lifecycle.
+The CD Foundation’s CI/CD Cybersecurity SIG (Special Interest Group) aims to address this challenge by advancing security tooling within CI/CD pipelines. This SIG will identify open-source DevSecOps tools aligned with established secure software development frameworks, integrating them into existing pipelines to ensure end-to-end security from code to cloud
+
+This SIG will develop a guide to help DevOps engineers build security-compliant CI/CD pipelines by mapping new open-source security automation tools to evolving security frameworks. As security standards evolve, pipeline updates are essential to ensure safer software development. The SIG will explore the intersection of security tooling and the CI/CD pipeline, identifying key security practices, tools, and strategies that align with accepted frameworks such as the Secure Software Development Framework and the NIST Cybersecurity Framework. This SIG will align framework-defined tasks with open-source tools to accomplish them.
 
 ## Why This SIG Is Needed
 
 There is a pressing need for stronger security measures within CI/CD, as underscored by industry trends and research:
-- Rising Vulnerabilities: In 2024 alone, over 500,000 new vulnerabilities were discovered, many of which remain unaddressed for extended periods, often exceeding a year. A slow response to these vulnerabilities can be costly: IBM estimates that delays in vulnerability remediation cost enterprises an average of $5.5 million annually.
+- Rising Vulnerabilities: As of 2024, there are 250,000 vulnerabilities, many of which remain unaddressed for extended periods, often exceeding a year. A slow response to these vulnerabilities can be costly: IBM estimates that delays in vulnerability remediation cost enterprises an average of $5.5 million annually.
 - Expanding Threat Landscape with AI: The push to develop AI-driven solutions has introduced new security challenges. This trend has broadened the attack surface, necessitating additional tooling to secure models and pipelines related to Large Language Models (LLMs) and AI workloads.
 The evolution of CI/CD pipelines is crucial to address these mounting security concerns. While organizations like the CNCF and OpenSSF are incubating innovative security tools, discussions on integrating these tools within CI/CD pipelines remain limited.
 
@@ -17,18 +19,22 @@ The evolution of CI/CD pipelines is crucial to address these mounting security c
 
 The CI/CD Cybersecurity SIG aims to:
 
-- Develop Integration Frameworks: Create specifications and standards for integrating open-source security tooling into CI/CD pipelines.
-- Promote Security Best Practices: Establish security guardrails and best practices for CI/CD teams, covering key areas like code-level security, container security, and vulnerability management.
-- Identify and Evaluate Emerging Tools: Serve as a resource to evaluate and recommend new open-source and proprietary tools that align with evolving security requirements within CI/CD.
-- Collaborate with Industry Leaders: Engage with projects under CNCF, OpenSSF, and other relevant foundations to promote cross-community collaboration and adoption of CI/CD security solutions.
+- Support Framework Compliance: Identify and map open source security tools to established secure software development frameworks and standards for integration into CI/CD pipelines.
 
+- Promote Security Best Practices: Encourage adherence to security guardrails within CI/CD workflows, with an emphasis on key domains such as, Code-level security, repo security, Container security, and Vulnerability management
+- 
+- Track and Align Emerging Tools:  Monitor and catalog emerging security tools that support evolving CI/CD requirements and align with recognized security standards and best practices.
+
+
+Collaborate with Industry Leaders:
+Partner with CNCF, OpenSSF, and other relevant communities to drive adoption of standardized security practices and foster cross-industry collaboration.
 ## Scope of Work
 
-The SIG will focus on:
-- Developing and disseminating frameworks, playbooks, and guidelines for securely integrating security tooling within CI/CD.
-- Providing recommendations for securing pipelines used in AI and LLM deployments.
-- Identify gaps in current security tooling for CI/CD and collaborate with the community to address these gaps.
-- Identifying gaps in security recommendations related specifically to CI/CD implementations.
+The SIG will undertake the following key activities:
+- Map and document tool to framework ‘tasks’, playbooks, and guidelines for securely integrating security tooling within CI/CD.
+- Provide recommendations for securing pipelines used in AI and LLM deployments.
+- Identify gaps in current CI/CD security tooling and collaborate with the community to address these gaps.
+- Review and enhance existing security recommendations tailored specifically to CI/CD pipelines.
 - The SIG will consider guidelines from work previously completed, including:
   - [The NIST Secure Software Development Framework](https://www.cisa.gov/resources-tools/resources/nist-sp-800-218-secure-software-development-framework-v11-recommendations-mitigating-risk-software)
   - [IBM’s X-Force Threat Landscape Report](https://www.ibm.com/reports/threat-intelligence)
