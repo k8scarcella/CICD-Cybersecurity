@@ -14,4 +14,3 @@ The post-deploy stage of your software delivery pipeline is where your applicati
 This phase includes tools and practices for continuous monitoring, vulnerability patch management, and incident response. From runtime application self-protection (RASP) to real-time threat detection and log analysis, post-deploy security ensures your application remains secure, compliant, and reliable in production.
 
 Following are guidelines from industry frameworks with suggested open source tooling needed to achieve the compliance goals. 
-
