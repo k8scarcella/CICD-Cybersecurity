@@ -6,32 +6,62 @@ description: >
  Protect the Software (PS) CI/CD Steps
 ---
 
-# Protect the Software (PS)
-Protect All Forms of Code from Unauthorized Access and Tampering (PS.1):
+## Protect the Software (PS)
+
+Organizations should protect all components of their software from tampering and unauthorized access.
+
+<br>
+
+### PS.1: Protect All Forms of Code from Unauthorized Access and Tampering.
+
+<br>
 Help prevent unauthorized changes to code, both inadvertent and intentional, which could circumvent or negate the intended security characteristics of the software.
-For code that is not intended to be publicly accessible, this helps prevent theft of the software and may make it more difficult or time-consuming for attackers to find vulnerabilities in the software
+For code that is not intended to be publicly accessible, this helps prevent theft of the software and may make it more difficult or time-consuming for attackers to find vulnerabilities in the software.
 
-## PS.1 Protect All Forms of Code from Unauthorized Access and Tampering:
+<br>
 
-### PS.1.1: Store all forms of code
+
+<strong>PS.1.1:</strong> Store all forms of code
 Store all forms of code – including source code, executable code, and configuration-as-code – based on the principle of least privilege so that only authorized personnel, tools, services, etc. have access.
 
-<u>Open-Source Tools to Achieve:</u>
+<br>
 
-#### Store all source code and configuration-as-code in a code repository, and restrict access to it based on the nature of the code. For example, opensource code intended for public access may need its integrity and availability protected; other code may also need its confidentiality protected.
+
+_Store all source code and configuration-as-code in a code repository, and restrict access to it based on the nature of the code. For example,  open source code intended for public access may need its integrity and availability protected; other code may also need its confidentiality protected._
+
+<br>
+
+<u>Open-Source or Free Tools to Achieve:</u>
+
+<br>
 
 - [GitHub](https://github.com/)
 - [GitLab](https://gitlab.com/)
 - [Bitbucket](https://bitbucket.org/)
 - [SourceForge](https://sourceforge.net/)
 
+<br>
 
-#### Use version control features of the repository to track all changes made to the code with accountability to the individual account.
+
+_Use version control features of the repository to track all changes made to the code with accountability to the individual account._
+
+<br>
+
+
+<u>Open-Source or Free Tools to Achieve:</u>
+
+<br>
 
 - [Git](https://git-scm.com/)
 
 
-#### Use commit signing for code repositories to sign code.
+_Use commit signing for code repositories to sign code._
+
+<br>
+
+<u>Open-Source or Free Tools to Achieve:</u>
+
+<br>
 
 - [GitHub Signing Commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits)
 - [About commit signature verification](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification)
@@ -41,7 +71,13 @@ Store all forms of code – including source code, executable code, and configur
 - [Bitbucket Using GPG Keys](https://confluence.atlassian.com/bitbucketserver/using-gpg-keys-913477014.html)
 
 
-#### Have the code owner review and approve all changes made to the code by others.
+_Have the code owner review and approve all changes made to the code by others._
+
+<br>
+
+<u>Open-Source or Free Tools to Achieve:</u>
+
+<br>
 
 - [Github CODEOWNERS](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)
 - [GitHub Code Review](https://github.com/features/code-review)
@@ -51,27 +87,51 @@ Store all forms of code – including source code, executable code, and configur
 - [Bitbucket Code Review](https://www.atlassian.com/software/bitbucket/features/code-review)
 
 
-#### Use cryptography (e.g., cryptographic hashes) to help protect file integrity.
+_Use cryptography (e.g., cryptographic hashes) to help protect file integrity_
+
+<br>
+
+
+<u>Open-Source or Free Tools to Achieve:</u>
+
+<br>
 
 - [GitHub About Commits](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)
 
+<br>
 
-## PS.2 Provide a Mechanism for Verifying Software Release Integrity:
+### PS.2 Provide a Mechanism for Verifying Software Release Integrity:
+
 Help software acquirers ensure that the software they acquire is legitimate and has not been tampered with. 
 
+<br>
 
-### PS.2.1: Make software integrity verification information available to software acquirers. 
+<strong>PS.2.1: </strong> Make software integrity verification information available to software acquirers. 
 
-<u>Open-Source Tools to Achieve:</u>
+<br>
 
-#### Post cryptographic hashes for release files on a well-secured website.
+_Post cryptographic hashes for release files on a well-secured website._
+
+<br>
+
+
+<u>Open-Source or Free Tools to Achieve:</u>
+
+<br>
 
 - [Apache Infrastructure Signing Releases](https://infra.apache.org/release-signing.html)
 - [OpenPGP](https://www.openpgp.org/)
 - [The GNU Privacy Guard](https://www.gnupg.org/)
 
+<br>
 
-#### Use an established certificate authority for code signing so that consumers’ operating systems or other tools and services can confirm the validity of signatures before use. 
+_Use an established certificate authority for code signing so that consumers’ operating systems or other tools and services can confirm the validity of signatures before use. Periodically review the code signing processes, including certificate renewal, rotation, revocation, and protection._
+
+<br>
+
+<u>Open-Source or Free Tools to Achieve:</u>
+
+<br>
 
 - [Let's Encrypt](https://letsencrypt.org/)
 - [EJBCA Community](https://www.ejbca.org/)
@@ -80,36 +140,60 @@ Help software acquirers ensure that the software they acquire is legitimate and 
 - [Step-CA](https://smallstep.com/product/team/devops/index.html)
 
 
-#### Periodically review the code signing processes, including certificate renewal, rotation, revocation, and protection. 
+### PS.3 Archive and Protect Each Software Release:
 
-
-## PS.3 Archive and Protect Each Software Release:
 Preserve software releases in order to help identify, analyze, and eliminate vulnerabilities discovered in the software after release.
 
-### PS.3.1: Securely archive the necessary files and supporting data (e.g., integrity verification information, provenance data) to be retained for each software release. 
+<br>
 
-<u>Open-Source Tools to Achieve:</u>
+<strong>PS.3.1: </strong> Securely archive the necessary files and supporting data (e.g., integrity verification information, provenance data) to be retained for each software release. 
 
-#### Store the release files, associated images, etc. in repositories following the organization’s established policy. Allow read-only access to them by necessary personnel and no access by anyone else. 
+<br>
+
+_Store the release files, associated images, etc. in repositories following the organization’s established policy. Allow read-only access to them by necessary personnel and no access by anyone else._
+
+<br>
+
+_Store and protect release integrity verification information and provenance data, such as by keeping it in a separate location from the release files or by signing the data._
+
+<br>
+
+<u>Open-Source or Free Tools to Achieve:</u>
+
+<br>
 
 - [GitHub Repository Roles for an Organization](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization)
 - [GitLab Roles and Permissions](https://docs.gitlab.com/user/permissions/)
 - [Bitbucket Grant Access to a Workspace](https://support.atlassian.com/bitbucket-cloud/docs/grant-access-to-a-workspace/)
 
-#### Store and protect release integrity verification information and provenance data, such as by keeping it in a separate location from the release files or by signing the data. 
+<br>
 
+<strong>PS.3.2:</strong> Collect, safeguard, maintain, and share provenance data for all components of each software release (e.g., in a Software Bill of Materials (SBOM)). 
 
-### PS.3.2: Collect, safeguard, maintain, and share provenance data for all components of each software release (e.g., in a software bill of materials [SBOM]). 
+<br>
 
-<u>Open-Source Tools to Achieve:</u>
+_Make the provenance data available to software acquirers in accordance with the organization’s policies, preferably using standards-based formats._
 
-#### Make the provenance data available to software acquirers in accordance with the organization’s policies, preferably using standards-based formats.
+<br>
+
+<u>Open-Source or Free Tools to Achieve:</u>
+
+<br>
 
 - [CycloneDX](https://cyclonedx.org/)
 - [SPDX](https://spdx.dev/)
 - [Software Identification (SWID) Tagging Tools and Utilities](https://github.com/usnistgov/swid-tools)
 
-#### Make the provenance data available to the organization’s operations and response teams to aid them in mitigating software vulnerabilities.
+<br>
+
+ _Make the provenance data available to the organization’s operations and response teams to aid them in mitigating software vulnerabilities._
+
+<br>
+
+<u>Open-Source or Free Tools to Achieve:</u>
+
+<br>
+
 - [Dependency-Check](https://owasp.org/www-project-dependency-check/)
 - [Dependency-Track](https://dependencytrack.org/)
 - [Syft](https://github.com/anchore/syft)
@@ -118,13 +202,26 @@ Preserve software releases in order to help identify, analyze, and eliminate vul
 - [Clair](https://clairproject.org/)
 - [Tern](https://github.com/tern-tools/tern)
 
-#### Protect the integrity of provenance data, and provide a way for recipients to verify provenance data integrity. 
+_Protect the integrity of provenance data, and provide a way for recipients to verify provenance data integrity._
+
+<br>
+
+<u>Open-Source or Free Tools to Achieve:</u>
+
+<br>
 
 - [aoss-verifier](https://github.com/google/aoss-verifier)
 - [Sigstore](https://sigstore.dev/)
 - [TLSNotary Protocol](https://docs.tlsnotary.org/)
 
-#### Update the provenance data every time any of the software’s components are updated. 
+<br>
+
+_Update the provenance data every time any of the software’s components are updated._
+
+<br>
+<u>Open-Source or Free Tools to Achieve:</u>
+
+<br>
 
 - [GitHub Actions](https://docs.github.com/en/actions)
 - [GitLab CI/CD](https://docs.gitlab.com/ci/)

@@ -7,47 +7,48 @@ description: >
 ---
 
 
-### Protect the Organization (PO)
+## Protect the Organization (PO)
+
 Organizations should ensure that their people,
 processes, and technology are prepared to perform secure software development at the
 organization level. Many organizations will find some PO practices to also be applicable
 to subsets of their software development, like individual development groups or projects.
 
-**PO.2 Implement Roles and Responsibilities**
-Ensure that everyone inside and outside of the
-organization involved in the SDLC is prepared to
-perform their SDLC-related roles and
-responsibilities throughout the SDLC.
+### PO.2 Implement Roles and Responsibilities
+
+Ensure that everyone inside and outside of the organization involved in the SDLC is prepared to perform their SDLC-related roles and responsibilities throughout the SDLC.
 
 <br>
 
-PO.2.1: Create new roles and alter responsibilities for
-existing roles as needed to encompass all parts of the
-SDLC. Periodically review and maintain the defined
-roles and responsibilities, updating them as needed.
+<strong>PO.2.1</strong>: Create new roles and alter responsibilities for existing roles as needed to encompass all parts of the SDLC.Periodically review and maintain the defined roles and responsibilities, updating them as needed.
 
-_Designate a group of individuals as the code owners for each project, and review the list annually._
+<br>
+
+
+ _Designate a group of individuals as the code owners for each project, and review the list annually._
+
+ <br>
 
 <u>Open-Source or Free Tools to Achieve:</u>
 
 - [Github CODEOWNERS](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)
+
 - [Gitlab CODEOWNERS](https://docs.gitlab.com/user/project/codeowners/)
 
-**PO.3 Implement Supporting Toolchains**
+### PO.3 Implement Supporting Toolchains
 
 Use automation to reduce human effort and improve the accuracy, reproducibility, usability, and comprehensiveness of security practices throughout the SDLC, as well as provide a way to document and demonstrate the use of these practices. Toolchains and tools may be used at different levels of the organization, such as organization-wide or project-specific, and may address a particular part of the SDLC, like a build pipeline.
 
 
 <br>
 
-PO.3.1: Specify which tools or tool types must or
-should be included in each toolchain to mitigate
-identified risks, as well as how the toolchain
-components are to be integrated with each other.
+<strong>PO.3.1:</strong> Specify which tools or tool types must or should be included in each toolchain to mitigate identified risks, as well as how the toolchain components are to be integrated with each other.
 
 <br>
 
 _Use software factories and/or software templates to standardize the toolchain._
+
+<br>
 
 <u>Open-Source or Free Tools to Achieve:</u>
 
@@ -57,12 +58,13 @@ _Use software factories and/or software templates to standardize the toolchain._
 
 <br>
 
-PO.3.2: Follow recommended security practices to
-deploy, operate, and maintain tools and toolchains.
+<strong>PO.3.2:</strong> Follow recommended  security practices to deploy, operate, and maintain tools and toolchains.
 
 <br>
 
 _Use code-based configuration for toolchains (e.g., pipelines-as-code, toolchains-as-code)._
+
+<br>
 
 <u>Open-Source or Free Tools to Achieve:</u>
 
@@ -78,6 +80,8 @@ _Use code-based configuration for toolchains (e.g., pipelines-as-code, toolchain
 <br>
 
 _Implement the technologies and processes needed for reproducible builds._
+
+<br>
 
 <u>Open-Source and Free Tools to Achieve:</u>
 
@@ -106,16 +110,15 @@ _Implement the technologies and processes needed for reproducible builds._
 
 <br>
 
-PO.3.3: Configure tools to generate artifacts of their
-support of secure software development practices as
-defined by the organization.
+<strong>PO.3.3:</strong> Configure tools to generate artifacts of their support of secure  software development practices as defined by the organization.
 
 <br>
 
-_Use existing tooling (e.g., workflow tracking, issue tracking, value stream mapping) to create an audit trail of the secure development-related actions that are performed for continuous improvement purposes._
-_Record security check approvals, rejections, and exception requests as part of the workflow and tracking system._
+_Use existing tooling (e.g., workflow tracking, issue tracking, value stream mapping) to create an audit trail of the secure development-related actions that are performed for continuous improvement purposes. Record security check approvals, rejections, and exception requests as part of the workflow and tracking system._
 
-<u>Open-Source Tools to Achieve:</u>
+<br>
+
+<u>Open-Source or Free Tools to Achieve:</u>
 
 - [Github Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues)
 - [Gitlab work tracking](https://docs.gitlab.com/topics/plan_and_track/)
@@ -126,22 +129,23 @@ _Record security check approvals, rejections, and exception requests as part of 
 - [In-toto framework](https://in-toto.io/docs/what-is-in-toto/)
 
 
-**PO.4 Define and Use Criteria for Software Security Checks**
+### PO.4 Define and Use Criteria for Software Security Checks
 
-Help ensure that the software resulting from the SDLC meets the organization’s 
-expectations by defining and using criteria for checking the software’s security
-during development.
+Help ensure that the software resulting from the SDLC meets the organization’s expectations by defining and using criteria for checking the software’s security during development.
 
 <br>
 
-PO.4.1: Define criteria for software security checks
-and track throughout the SDLC.
+<strong>PO.4.1:</strong> Define criteria for software security checks and track throughout the SDLC.
 
 <br>
 
 _Add software security criteria to existing checks (e.g., the Definition of Done in agile SDLC methodologies). Include a checklist for security checks in issue templates as a reminder during code reviews._
 
+<br>
+
 <u>Open-Source or Free Tools to Achieve:</u>
+
+<br>
 
 - [Github Issue Templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)
 - [Gitlab Description Templates](https://docs.gitlab.com/user/project/description_templates/)
@@ -149,14 +153,18 @@ _Add software security criteria to existing checks (e.g., the Definition of Done
 <br>
 
 
-PO.4.2: Implement processes, mechanisms, etc. to gather and safeguard the necessary information in support of the criteria.
+<strong>PO.4.2:</strong> Implement processes, mechanisms, etc. to gather and safeguard the necessary information in support of the criteria.
 
 
 <br>
 
 _Collect audit logs for code respositories._
 
+<br>
+
 <u>Open-Source Tools to Achieve:</u>
+
+<br>
 
 - Github
   - [Audit logs](https://docs.github.com/en/organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/reviewing-the-audit-log-for-your-organization)
@@ -167,7 +175,11 @@ _Collect audit logs for code respositories._
 
 _Only allow authorized personnel to access the gathered information, and prevent any alteration or deletion of the information. Carefully manage the list of repository owners and organization owners who have the ability to view audit logs, delete organizations, and delete code repositories, and review the list annually._
 
+<br>
+
 <u>Open-Source Tools to Achieve:</u>
+
+<br>
 
 - Github
   - [Roles in an Organization](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization)
@@ -177,23 +189,24 @@ _Only allow authorized personnel to access the gathered information, and prevent
 
 <br>
 
-**PO.5 Implement and Maintain Secure Environments for Software Development **
+### PO.5 Implement and Maintain Secure Environments for Software Development 
 
-Ensure that all components of the environments for software development are
-strongly protected from internal and external threats to prevent compromises of the
-environments or the software being developed or maintained within them. Examples of
-environments for software development include development, build, test, and distribution
-environments.
+
+Ensure that all components of the environments for software development are strongly protected from internal and external threats to prevent compromises of the environments or the software being developed or maintained within them. Examples of environments for software development include development, build, test, and distribution environments. 
 
 <br>
 
-PO.5.1: Separate and protect each environment involved in software development.
+<strong>PO.5.1:</strong> Separate and protect each environment involved in software development.
 
 <br>
 
 _Require multi-factor authentication, SSH keys, signed commits, and code change approvals for code repositories at the organization level._
 
+<br>
+
 <u>Open-Source Tools to Achieve:</u>
+
+<br>
 
 - Github Organization Settings
   - [requiring multi-factor authentication](https://docs.github.com/en/organizations/keeping-your-organization-secure/managing-two-factor-authentication-for-your-organization/requiring-two-factor-authentication-in-your-organization)
