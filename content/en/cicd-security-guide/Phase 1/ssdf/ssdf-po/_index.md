@@ -28,7 +28,7 @@ roles and responsibilities, updating them as needed.
 
 _Designate a group of individuals as the code owners for each project, and review the list annually._
 
-<u>Open-Source Tools to Achieve:</u>
+<u>Open-Source or Free Tools to Achieve:</u>
 
 - [Github CODEOWNERS](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)
 - [Gitlab CODEOWNERS](https://docs.gitlab.com/user/project/codeowners/)
@@ -37,13 +37,6 @@ _Designate a group of individuals as the code owners for each project, and revie
 
 Use automation to reduce human effort and improve the accuracy, reproducibility, usability, and comprehensiveness of security practices throughout the SDLC, as well as provide a way to document and demonstrate the use of these practices. Toolchains and tools may be used at different levels of the organization, such as organization-wide or project-specific, and may address a particular part of the SDLC, like a build pipeline.
 
-<br>
-
-<u>Open-Source Tools to Achieve:</u>
-
-_Workflow Framework_
-
-- [In-toto framework](https://in-toto.io/docs/what-is-in-toto/)
 
 <br>
 
@@ -56,10 +49,11 @@ components are to be integrated with each other.
 
 _Use software factories and/or software templates to standardize the toolchain._
 
-<u>Open-Source Tools to Achieve:</u>
+<u>Open-Source or Free Tools to Achieve:</u>
 
 - [Backstage Software Templates](https://backstage.io/docs/features/software-templates/) can scaffold projects with pipelines-as-code and toolchains-as-code
 - [Konflux-ci software factory for Tekton](https://konflux-ci.dev/) implements the [In-toto framework](https://in-toto.io/docs/what-is-in-toto/) using pipelines-as-code
+- [CDF CDEvents](https:/https://cdevents.dev/) CDEvents is a common specification for Continuous Delivery events, enabling interoperability in the complete software production ecosystem.
 
 <br>
 
@@ -70,22 +64,22 @@ deploy, operate, and maintain tools and toolchains.
 
 _Use code-based configuration for toolchains (e.g., pipelines-as-code, toolchains-as-code)._
 
-<u>Open-Source Tools to Achieve:</u>
+<u>Open-Source or Free Tools to Achieve:</u>
 
 - [Jenkins Jenkinsfile](https://www.jenkins.io/solutions/pipeline/)
 - [Github Actions .github/workflows directory](https://docs.github.com/en/actions/about-github-actions/understanding-github-actions)
 - [Gitlab CI/CD .gitlab-ci.yml file](https://docs.gitlab.com/ci/pipelines/)
-- [CircleCI .circleci/config.yml](https://circleci.com/docs/pipelines/)
 - [Spinnaker Dinghy](https://github.com/armory/dinghy)
 - [Argo CD](https://argo-cd.readthedocs.io/en/stable/user-guide/ci_automation/)
 - [Tekton pipelines-as-code](https://pipelinesascode.com/)
+- [OpenTofu](https://opentofu.org/)
 
 
 <br>
 
 _Implement the technologies and processes needed for reproducible builds._
 
-<u>Open-Source Tools to Achieve:</u>
+<u>Open-Source and Free Tools to Achieve:</u>
 
 - [Hermetic builds with Konflux-ci](https://konflux-ci.dev/docs/building/hermetic-builds/)
 - Python 
@@ -96,7 +90,7 @@ _Implement the technologies and processes needed for reproducible builds._
 - Javascript
   - [npm package-lock.json](https://docs.npmjs.com/cli/v7/configuring-npm/package-lock-json) created in the coding phase, combined with [npm ci](https://docs.npmjs.com/cli/v9/commands/npm-ci) in the build phase
   - [yarn yarn.lock](https://classic.yarnpkg.com/lang/en/docs/cli/install/)
-- Java
+- Java/Groovy/Kotlin
   - [Maven](https://maven.apache.org/guides/mini/guide-reproducible-builds.html)
   - [Gradle](https://docs.gradle.org/current/userguide/working_with_files.html#sec:reproducible_archives)
 - C# / .NET
@@ -104,7 +98,11 @@ _Implement the technologies and processes needed for reproducible builds._
   - [DotNet.ReproducibleBuilds](https://www.nuget.org/packages/DotNet.ReproducibleBuilds/)
 - C++
   - [Bazel](https://bazel.build/external/overview)
+- Rust
+  - [Cargo](https://crates.io/)
 - [Golang](https://go.dev/blog/rebuild)
+- [PHP Composer](https://getcomposer.org/)
+- [SLSA Framework](https://slsa.dev/)
 
 <br>
 
@@ -121,8 +119,12 @@ _Record security check approvals, rejections, and exception requests as part of 
 
 - [Github Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues)
 - [Gitlab work tracking](https://docs.gitlab.com/topics/plan_and_track/)
+- [Bugzilla](https://www.bugzilla.org/)
+- [Redmine](https://www.redmine.org/)
+- [Mantis Bug Tracker](https://mantisbt.org/)
+- [Trac](https://trac.edgewall.org/)
+- [In-toto framework](https://in-toto.io/docs/what-is-in-toto/)
 
-<br>
 
 **PO.4 Define and Use Criteria for Software Security Checks**
 
@@ -139,7 +141,7 @@ and track throughout the SDLC.
 
 _Add software security criteria to existing checks (e.g., the Definition of Done in agile SDLC methodologies). Include a checklist for security checks in issue templates as a reminder during code reviews._
 
-<u>Open-Source Tools to Achieve:</u>
+<u>Open-Source or Free Tools to Achieve:</u>
 
 - [Github Issue Templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)
 - [Gitlab Description Templates](https://docs.gitlab.com/user/project/description_templates/)
@@ -197,19 +199,12 @@ _Require multi-factor authentication, SSH keys, signed commits, and code change 
   - [requiring multi-factor authentication](https://docs.github.com/en/organizations/keeping-your-organization-secure/managing-two-factor-authentication-for-your-organization/requiring-two-factor-authentication-in-your-organization)
   - [requiring signed commits](https://docs.github.com/en/organizations/managing-organization-settings/managing-the-commit-signoff-policy-for-your-organization)
   - [requiring code change approvals and protecting the main branch](https://docs.github.com/en/organizations/managing-organization-settings/managing-pull-request-reviews-in-your-organization)
-- Gitlab - TODO is it possible to enforce this at the organization level or only at the repo level?
+- Gitlab 
   - [requiring multi-factor authentication](https://docs.gitlab.com/security/two_factor_authentication/)
   - [requiring signed commits via push rules](https://docs.gitlab.com/user/project/repository/push_rules/)
   - [requiring code change approvals by protecting the main branch](https://docs.gitlab.com/user/project/repository/branches/protected/)
 
-<br>
-
-_Securely configure code repository and CI/CD servers_
+> Note: _Securely configure code repository and CI/CD servers_ -
+This is a complex topic, beyond the scope of this document. _Securely configure development endpoints (i.e. developer laptops)_ -
 This is a complex topic, beyond the scope of this document.
 
-<br>
-
-_Securely configure development endpoints (i.e. developer laptops)_
-This is a complex topic, beyond the scope of this document.
-
-<br>
