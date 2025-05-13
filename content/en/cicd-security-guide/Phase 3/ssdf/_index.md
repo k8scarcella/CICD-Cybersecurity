@@ -2,7 +2,7 @@
 title: "Secure Software Development Framework"
 linkTitle: "Secure Software Development Framework"
 weight: 4
-description: >
+description: > 
  Secure Software Development Framework Post Build CI/CD Steps
 ---
 
