@@ -13,4 +13,4 @@ The post-deploy stage of your software delivery pipeline is where your applicati
 
 ### Industry Frameworks
 
-Following are guidelines from industry frameworks with suggested open source tooling needed to achieve the compliance goals. 
+Following are guidelines from industry frameworks with suggested open source tooling needed to achieve the compliance goals.

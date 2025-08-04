@@ -60,7 +60,7 @@ Use automation to reduce human effort and improve the accuracy, reproducibility,
   </tr>
   <tr>
     <td rowspan="3">
-      <strong>PO.3.1</strong>: 
+      <strong>PO.3.1</strong>:
       <p>Specify which tools or tool types must or should be included in each toolchain to mitigate identified risks, as well as how the toolchain components are to be integrated with each other.</p>
       <div style="height: 16px"></div>
       <p style="font-style: italic">Use software factories and/or software templates to standardize the toolchain.</p>
@@ -85,7 +85,7 @@ Use automation to reduce human effort and improve the accuracy, reproducibility,
   </tr>
   <tr>
     <td rowspan="7">
-      <strong>PO.3.2</strong>: 
+      <strong>PO.3.2</strong>:
       <p>Follow recommended security practices to deploy, operate, and maintain tools and toolchains.</p>
       <div style="height: 16px"></div>
       <p style="font-style: italic">Use code-based configuration for toolchains (e.g., pipelines-as-code, toolchains-as-code).</p>
@@ -304,7 +304,7 @@ Help ensure that the software resulting from the SDLC meets the organization’s
   </tr>
   <tr>
     <td rowspan="2">
-    <strong>PO.4.1:</strong> 
+    <strong>PO.4.1:</strong>
     <p>Define criteria for software security checks and track throughout the SDLC.</p>
     <div style="height: 16px"></div>
     <p style="font-style: italic">Add software security criteria to existing checks (e.g., the Definition of Done in agile SDLC methodologies).</p>
@@ -320,7 +320,7 @@ Help ensure that the software resulting from the SDLC meets the organization’s
   </tr>
   <tr>
     <td rowspan="2">
-      <strong>PO.4.2:</strong> 
+      <strong>PO.4.2:</strong>
       <p>Implement processes, mechanisms, etc. to gather and safeguard the necessary information in support of the criteria.</p>
       <div style="height: 16px"></div>
       <p style="font-style: italic">Collect audit logs for code repositories.</p>
@@ -342,7 +342,7 @@ Help ensure that the software resulting from the SDLC meets the organization’s
   </tr>
   <tr>
     <td rowspan="2">
-      <strong>PO.4.2:</strong> 
+      <strong>PO.4.2:</strong>
       <p>Implement processes, mechanisms, etc. to gather and safeguard the necessary information in support of the criteria.</p>
       <div style="height: 16px"></div>
       <p style="font-style: italic">Only allow authorized personnel to access the gathered information, and prevent any alteration or deletion of the information. Carefully manage the list of repository owners and organization owners who have the ability to view audit logs, delete organizations, and delete code repositories, and review the list annually.</p>
@@ -373,9 +373,9 @@ Help ensure that the software resulting from the SDLC meets the organization’s
 
 <br>
 
-### PO.5 Implement and Maintain Secure Environments for Software Development 
+### PO.5 Implement and Maintain Secure Environments for Software Development
 
-Ensure that all components of the environments for software development are strongly protected from internal and external threats to prevent compromises of the environments or the software being developed or maintained within them. Examples of environments for software development include development, build, test, and distribution environments. 
+Ensure that all components of the environments for software development are strongly protected from internal and external threats to prevent compromises of the environments or the software being developed or maintained within them. Examples of environments for software development include development, build, test, and distribution environments.
 
 <br>
 
@@ -386,7 +386,7 @@ Ensure that all components of the environments for software development are stro
   </tr>
   <tr>
     <td rowspan="2">
-      <strong>PO.5.1:</strong> 
+      <strong>PO.5.1:</strong>
       <p>Separate and protect each environment involved in software development.</p>
       <div style="height: 16px"></div>
       <p style="font-style: italic">Require multifactor authentication, SSH keys, signed commits, and code change approvals for code repositories at the organization level.</p>

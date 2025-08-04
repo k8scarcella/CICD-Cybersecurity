@@ -12,7 +12,7 @@ Organizations should protect all components of their software from tampering and
 
 <br>
 
-### PS.1: Protect All Forms of Code from Unauthorized Access and Tampering.
+### PS.1: Protect All Forms of Code from Unauthorized Access and Tampering
 
 Help prevent unauthorized changes to code, both inadvertent and intentional, which could circumvent or negate the intended security characteristics of the software.
 For code that is not intended to be publicly accessible, this helps prevent theft of the software and may make it more difficult or time-consuming for attackers to find vulnerabilities in the software.
@@ -218,9 +218,9 @@ For code that is not intended to be publicly accessible, this helps prevent thef
 
 <br>
 
-### PS.2 Provide a Mechanism for Verifying Software Release Integrity:
+### PS.2 Provide a Mechanism for Verifying Software Release Integrity
 
-Help software acquirers ensure that the software they acquire is legitimate and has not been tampered with. 
+Help software acquirers ensure that the software they acquire is legitimate and has not been tampered with.
 
 <br>
 
@@ -233,7 +233,7 @@ Help software acquirers ensure that the software they acquire is legitimate and 
     <td rowspan="3">
       <strong>PS.2.1:</strong>
       <p>
-        Make software integrity verification information available to software acquirers. 
+        Make software integrity verification information available to software acquirers.
       </p>
       <div style="height: 16px"></div>
       <p style="font-style: italic">
@@ -257,7 +257,7 @@ Help software acquirers ensure that the software they acquire is legitimate and 
     <td rowspan="5">
       <strong>PS.2.1:</strong>
       <p>
-        Make software integrity verification information available to software acquirers. 
+        Make software integrity verification information available to software acquirers.
       </p>
       <div style="height: 16px"></div>
       <p style="font-style: italic">
@@ -292,7 +292,7 @@ Help software acquirers ensure that the software they acquire is legitimate and 
 
 <br>
 
-### PS.3 Archive and Protect Each Software Release:
+### PS.3 Archive and Protect Each Software Release
 
 Preserve software releases in order to help identify, analyze, and eliminate vulnerabilities discovered in the software after release.
 
@@ -308,7 +308,7 @@ Preserve software releases in order to help identify, analyze, and eliminate vul
     <td rowspan="3">
       <strong>PS.3.1:</strong>
       <p>
-        Securely archive the necessary files and supporting data (e.g., integrity verification information, provenance data) to be retained for each software release. 
+        Securely archive the necessary files and supporting data (e.g., integrity verification information, provenance data) to be retained for each software release.
       </p>
       <div style="height: 16px"></div>
       <p style="font-style: italic">
@@ -333,7 +333,7 @@ Preserve software releases in order to help identify, analyze, and eliminate vul
     <td rowspan="4">
       <strong>PS.3.1:</strong>
       <p>
-        Securely archive the necessary files and supporting data (e.g., integrity verification information, provenance data) to be retained for each software release. 
+        Securely archive the necessary files and supporting data (e.g., integrity verification information, provenance data) to be retained for each software release.
       </p>
       <div style="height: 16px"></div>
       <p style="font-style: italic">

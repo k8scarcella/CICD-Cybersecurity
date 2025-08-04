@@ -2,7 +2,7 @@
 
 [Website](https://cicd-cybersecurity.netlify.app/)
 
-Continuous Integration and Continuous Delivery (CI/CD) pipelines are critical touchpoints where code-level vulnerabilities, container security, and vulnerability remediation efforts converge in modern software development. As security demands rise across the software lifecycle—from code to cloud—CI/CD teams are increasingly tasked with embedding cybersecurity guardrails directly into their processes. This SIG is dedicated to advancing security tooling within CI/CD pipelines, with a focus on defining DevSecOps best practices and developing frameworks for secure pipeline implementation from code to cloud. 
+Continuous Integration and Continuous Delivery (CI/CD) pipelines are critical touchpoints where code-level vulnerabilities, container security, and vulnerability remediation efforts converge in modern software development. As security demands rise across the software lifecycle—from code to cloud—CI/CD teams are increasingly tasked with embedding cybersecurity guardrails directly into their processes. This SIG is dedicated to advancing security tooling within CI/CD pipelines, with a focus on defining DevSecOps best practices and developing frameworks for secure pipeline implementation from code to cloud.
 
 The CD Foundation’s CI/CD Cybersecurity SIG (Special Interest Group) aims to address this challenge by advancing security tooling within CI/CD pipelines. This SIG will identify open-source DevSecOps tools aligned with established secure software development frameworks, integrating them into existing pipelines to ensure end-to-end security from code to cloud
 
@@ -22,7 +22,7 @@ The CI/CD Cybersecurity SIG aims to:
 - Support Framework Compliance: Identify and map open source security tools to established secure software development frameworks and standards for integration into CI/CD pipelines.
 
 - Promote Security Best Practices: Encourage adherence to security guardrails within CI/CD workflows, with an emphasis on key domains such as, Code-level security, repo security, Container security, and Vulnerability management
-  
+
 - Track and Align Emerging Tools:  Monitor and catalog emerging security tools that support evolving CI/CD requirements and align with recognized security standards and best practices.
 
 
@@ -64,7 +64,7 @@ The effort should be open to all involved in the field of CI/CD, AI, and Securit
 * Kate Scarcella ([@k8scarcella](http://github.com/k8scarcella)), Cybersecurity Architect Consultant, Ortelius Architecture Team
 * Utkarsh Sharma ([@codeWithUtkarsh](http://github.com/codeWithUtkarsh)) Acutro, Ortelius Architecture Team
 * Jing Chen ([@jdchen5](https://github.com/jdchen5)), Consultant HSBC
-* Pawel Piwosz ([@pawelpiwosz](https://github.com/pawelpiwosz/) Tameshi, Cloud Solution Architect  
+* Pawel Piwosz ([@pawelpiwosz](https://github.com/pawelpiwosz/) Tameshi, Cloud Solution Architect
 * V Sreenivas ([@cnu1812](https://github.com/cnu1812)), StackUp
 * Eduardo Brito ([@edurbrito-cyber](https://github.com/edurbrito-cyber)), Security Engineer @ Cybernetica AS
 * James Leone ([@jleonelion](https://github.com/jleonelion)) IBM Consulting, Practice Director
@@ -106,6 +106,3 @@ New members are advised to:
 
 CI/CD Cybersecurity is a [CDF Special Interest Group](https://github.com/cdfoundation/toc/tree/master/sigs).
 Governance details for this SIG can be found [here](https://github.com/cdfoundation/CICD-Cybersecurity#governance)
-
-
-
