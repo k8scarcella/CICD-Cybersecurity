@@ -44,7 +44,7 @@ Welcome to our CI/CD Cybersecurity Resource Hub, your go-to destination for insi
     <li><a style="text-decoration: none" href="https://www.cisa.gov/resources-tools/resources/nist-sp-800-218-secure-software-development-framework-v11-recommendations-mitigating-risk-software">The NIST Secure Software Development Framework</a></li>
     <li><a style="text-decoration: none" href="https://www.ibm.com/reports/threat-intelligence">Google Cybersecurity Professional</a></li>
     <li><a style="text-decoration: none" href="https://www.nist.gov/cyberframework">The NIST Cybersecurity Framework</a></li>
-    <li><a style="text-decoration: none" href="https://research.google/pubs/securing-the-ai-software-supply-chain/">Securing the AI Software Supply Chain</a></li> 
+    <li><a style="text-decoration: none" href="https://research.google/pubs/securing-the-ai-software-supply-chain/">Securing the AI Software Supply Chain</a></li>
 </ul>
 
 {{% /cdf/center %}}

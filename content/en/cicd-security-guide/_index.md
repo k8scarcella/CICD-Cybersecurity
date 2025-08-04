@@ -22,12 +22,12 @@ This CI/CD Cybersecurity Guide has been segmented into three 3 major chapters:
 - CI/CD Build and Deploy - this section covers security tooling for both the build step and deployment step, regardless of where the deployment is occurring (test or production).
 - CI/CD Post Deploy - security does not stop after the binaries have been deployed. This section covers continuous vulnerability management and Dynamic Application Security Testing (DAST).
 
-For more information on Security Frameworks or Public Security Policy, visit the [OpenSSF Public Policy](https://openssf.org/public-policy/) or [EU Cybersecurity Resilience Act](https://openssf.org/public-policy/eu-cyber-resilience-act/) pages. 
+For more information on Security Frameworks or Public Security Policy, visit the [OpenSSF Public Policy](https://openssf.org/public-policy/) or [EU Cybersecurity Resilience Act](https://openssf.org/public-policy/eu-cyber-resilience-act/) pages.
 
-You can also learn about the [OpenSSF Open Source Manifesto](https://openssf.org/blog/2023/08/24/join-us-in-adopting-the-open-source-consumption-manifesto/) to help along the journey. 
+You can also learn about the [OpenSSF Open Source Manifesto](https://openssf.org/blog/2023/08/24/join-us-in-adopting-the-open-source-consumption-manifesto/) to help along the journey.
 
 ## Compliance Goals
 
 Compliance Policies and Practices are being defined across both public and private sectors. Specifically, the US Executive Order (EO) on Improving the Nation’s Cybersecurity and the EU Cyber Resilience Act (CRA) aim to define how to manage threats and vulnerabilities by establishing standardized frameworks for cybersecurity requirements. These frameworks cover the complete software development process, from design through ongoing monitoring of production software assets.
 
-The inclusion of security tooling in the Continuous Integration and Continuous Deployment (CI/CD) pipeline is one crucial area where policy and practices can be implemented and automated. With the rapid pace of development and deployment in modern DevOps environments, security must be seamlessly embedded into each phase of the pipeline to protect applications and data from vulnerabilities and attacks.This is the new job of the DevOps team. This guide is intended to help the DevOps teams easily navigate the new frameworks and understand the tooling needed to achieve the stated compliance goals. 
+The inclusion of security tooling in the Continuous Integration and Continuous Deployment (CI/CD) pipeline is one crucial area where policy and practices can be implemented and automated. With the rapid pace of development and deployment in modern DevOps environments, security must be seamlessly embedded into each phase of the pipeline to protect applications and data from vulnerabilities and attacks.This is the new job of the DevOps team. This guide is intended to help the DevOps teams easily navigate the new frameworks and understand the tooling needed to achieve the stated compliance goals.

@@ -24,7 +24,7 @@ _Binary Repositories:_
 - [ArtifactHub](https://artifacthub.io/)
 - [JFrog Artifactory OSS](https://jfrog.com/community/download-artifactory-oss/)
 - [Sonatype Nexus OSS](https://www.sonatype.com/products/nexus-community-edition-download)
-- [Harbor](https://goharbor.io/) 
+- [Harbor](https://goharbor.io/)
 
 _Git Commit Signing:_
 
