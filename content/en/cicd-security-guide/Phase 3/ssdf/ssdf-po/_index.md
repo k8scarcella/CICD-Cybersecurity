@@ -3,15 +3,45 @@ title: "Protect the Organization (PO)"
 linkTitle: "Protect the Organization (PO)"
 weight: 5
 description: >
- Protect the Organization (PO) CI/CD Steps
+ Protect the Organization (PO) Post Deployment
 ---
 
 
 ### Protect the Organization (PO)
+Ensure that security requirements for software development are known at all times so that they can be taken into account throughout the SDLC and duplication of effort can be minimized because the requirements information can be collected once and shared. This includes requirements from internal sources (e.g., the organization’s policies,business objectives, and risk management strategy) and external sources (e.g., applicable laws and regulations).
 
-**PO.3 Implement Supporting Toolchains**
+<br>
 
-Use automation to reduce human effort and improve the accuracy, reproducibility, usability, and comprehensiveness of security practices throughout the SDLC, as well as provide a way to document and demonstrate the use of these practices. Toolchains and tools may be used at different levels of the organization, such as organization-wide or project-specific, and may address a particular part of the SDLC, like a build pipeline.
+**PO.4 Define and Use Criteria for Software Security Checks**
 
-<u>Open-Source Tools to Achieve:</u>
+<table style="width:100%">
+  <tr>
+    <th style="width: 50%">Tasks</th>
+    <th style="width: 50%">Tools</th>
+  </tr>
+  <tr>
+    <td rowspan="5">
+      <strong>P0.4.2:</strong>
+      <p>
+      Help ensure that the software resulting from the SDLC meets the organization’s expectations by defining and using criteria for checking the software’s security during development.
+      </p>
+      <div style="height: 16px"></div>
+      <p style="font-style: italic">
+        Implement processes, mechanisms, etc. to gather and safeguard the necessary information in support of the criteria.
+      </p>
+    </td>
+    <td>
+      <a href="https://ortelius.io">Ortelius Evidence Store - SBOM/Asset Intelligence</
+    </td>
+  </tr>
+  <tr>
+    <td>
+       <a href="https://www.openpolicyagent.org/"> OPA - Policy Enforcement</a>
+    </td>
+  </tr>
+   <tr>
+    <td>
+       <a href="https://www.open-scap.org/">Open-SCAP - Security Content Automation Protocol</a>
+    </td>
+  </tr>
 
