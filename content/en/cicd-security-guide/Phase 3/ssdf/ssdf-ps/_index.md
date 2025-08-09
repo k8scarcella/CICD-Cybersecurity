@@ -6,6 +6,15 @@ description: >
  Protect the Software (PS) Post-Deployment Steps
 ---
 
+### Protect the Software (PS)
+Organizations should protect all components of their software from tampering and unauthorized access. 
+
+The following task achieve the goals of PS post deployment. 
+
+Note: There are no Post Deploy Tasks for PS.1
+
+<br>
+
 
 **PS.2 and PS.3**
 
@@ -16,7 +25,7 @@ description: >
 <strong> Archive and Protect Each Software Release (PS.3):</strong> Preserve software releases in order to help identify, analyze, and eliminate vulnerabilities discovered in the software after release.
 
 
-Note: There are no Post Deploy Tasks for PS.1
+
 
 <br>
 
