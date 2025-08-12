@@ -249,9 +249,9 @@ To satisfy SSDF PW.4 in a post-deployment context using open-source tools, the f
   </tr>
   <tr>
     <td rowspan="18">
-      <p>PW.4.1: Acquire and maintain well-secured software components (e.g., software libraries, modules, middleware, frameworks) from commercial, opensource, and other third-party developers for use by the organization’s software.</p>
-      <p>PW.4.2: Create and maintain well-secured software components in-house following SDLC processes to meet common internal software development needs that cannot be better met by third-party software components.</p>
-      <p>PW.4.3: Moved to PW.1.3</p>
+      <p>PW.4.1: Acquire and maintain well-secured software components (e.g., software libraries, modules, middleware, frameworks) from commercial, opensource, and other third-party developers for use by the organization’s software.</p><br>
+      <p>PW.4.2: Create and maintain well-secured software components in-house following SDLC processes to meet common internal software development needs that cannot be better met by third-party software components.</p> <br>
+      <p>PW.4.3: Moved to PW.1.3</p> <br>
       <p>PW.4.4: Verify that acquired commercial, open-source, and all other third-party software components comply with the requirements, as defined by the organization, throughout their life cycles.</p>
     </td>
   </tr>
@@ -503,7 +503,8 @@ To satisfy SSDF PW.6 in a post-deployment context using open-source tools, the f
   </tr>
   <tr>
     <td rowspan="9">
-      <p>PW.5.1: Follow all secure coding practices that are appropriate to the development languages and environment to meet the organization’s requirements.</p>
+      <p>PW.6.1: Use compiler, interpreter, and build tools that offer features to improve executable security.</p> <br>
+      <p>PW.6.2: Determine which compiler, interpreter, and build tool features should be used and how each should be configured, then implement and use the approved configurations.</p>
     </td>
   </tr>
   <tr>
@@ -580,8 +581,8 @@ To satisfy SSDF PW.7 in a post-deployment context using open-source tools, the f
   </tr>
   <tr>
     <td rowspan="5">
-      <p>PW.7.1: Determine whether code review (a person looks directly at the code to find issues) and/or code analysis (tools are used to find issues in code, either in a fully automated way or in conjunction with a person) should be used, as defined by the organization.</p>
-      <p>PW.7.2: Perform the code review and/or code analysis based on the organization’s secure coding standards, and record and triage all discovered issues and recommended remediations in the development team’s workflow or issue tracking system.</p>
+      <p>PW.7.1: Determine whether code review (a person looks directly at the code to find issues) and/or code analysis (tools are used to find issues in code, either in a fully automated way or in conjunction with a person) should be used, as defined by the organization.</p><br>
+      <p>PW.7.2: Perform the code review and/or code analysis based on the organization’s secure coding standards, and record and triage all discovered issues and recommended remediations in the development team’s workflow or issue tracking system.</p> 
     </td>
   </tr>
  <tr>
@@ -633,7 +634,7 @@ To satisfy SSDF PW.8 in a post-deployment context using open-source tools, the f
   </tr>
   <tr>
     <td rowspan="9">
-      <p>PW.8.1: Determine whether executable code testing should be performed to find  vulnerabilities not identified by previous reviews, analysis, or testing and, if so, which types of testing should be used.</p>
+      <p>PW.8.1: Determine whether executable code testing should be performed to find  vulnerabilities not identified by previous reviews, analysis, or testing and, if so, which types of testing should be used.</p><br>
       <p>PW.8.2: Scope the testing, design the tests, perform the testing, and document the results, including recording and triaging all discovered issues and recommended remediations in the development team’s workflow or issue tracking system.</p>
     </td>
   </tr>
@@ -710,7 +711,7 @@ To satisfy SSDF PW.9 in a post-deployment context using open-source tools, the f
   </tr>
   <tr>
     <td rowspan="9">
-      <p>PW.9.1: Define a secure baseline by determining how to configure each setting that has an effect on security or a security-related setting so that the default settings are secure and do not weaken the security functions provided by the platform, network infrastructure, or services.</p>
+      <p>PW.9.1: Define a secure baseline by determining how to configure each setting that has an effect on security or a security-related setting so that the default settings are secure and do not weaken the security functions provided by the platform, network infrastructure, or services.</p><br>
       <p>PW.9.2: Implement the default settings (or groups of default settings, if  applicable), and document each setting for software administrators.</p>
     </td>
   </tr>
