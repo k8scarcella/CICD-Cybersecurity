@@ -21,18 +21,25 @@ Help ensure that vulnerabilities are identified more quickly so that they can be
         <th style="width: 50%">Tools</th>
     </tr>
     <tr>
-        <td rowspan="2">
+        <td rowspan="4">
             <strong>RV.1.1</strong>:
             <p>Gather information from software acquirers, users, and public sources on potential vulnerabilities in the
                 software and third-party components that the software uses, and investigate all credible reports.</p>
         </td>
+        <td>
+      <a href="https://www.cve-search.org/"> cve-search</a>
+      <a href="https://osv.dev/"> OSV.dev</a>
+      <a href="https://vulners.com/"> Vulners</a>
+      </a>
+      <p>cve-search, OSV.dev, and Vulners provide APIs for real-time vulnerability data that can be integrated into a CI/CD pipeline to automatically flag risky dependencies during builds.</p>
+    </td>
     </tr>
     <tr>
         <td>
         </td>
     </tr>
     <tr>
-        <td rowspan="2">
+        <td rowspan="4">
             <strong>RV.1.2</strong>:
             <p>Review, analyze, and/or test the software’s code to identify or confirm the presence of previously
                 undetected vulnerabilities.</p>
@@ -43,7 +50,7 @@ Help ensure that vulnerabilities are identified more quickly so that they can be
         </td>
     </tr>
     <tr>
-        <td rowspan="2">
+        <td rowspan="4">
             <strong>RV.1.3</strong>:
             <p>Have a policy that addresses vulnerability disclosure and remediation, and implement the roles,
                 responsibilities, and processes needed to support that policy.</p>
@@ -68,7 +75,7 @@ Help ensure that vulnerabilities are remediated in accordance with risk to reduc
         <th style="width: 50%">Tools</th>
     </tr>
     <tr>
-        <td rowspan="2">
+        <td rowspan="4">
             <strong>RV.2.1</strong>:
             <p>Analyze each vulnerability to gather sufficient information about risk to plan its remediation or other risk response.</p>
         </td>
@@ -78,7 +85,7 @@ Help ensure that vulnerabilities are remediated in accordance with risk to reduc
         </td>
     </tr>
     <tr>
-        <td rowspan="2">
+        <td rowspan="4">
             <strong>RV.2.2</strong>:
             <p>Plan and implement risk responses for vulnerabilities.</p>
         </td>
@@ -102,7 +109,7 @@ Help reduce the frequency of vulnerabilities in the future.
         <th style="width: 50%">Tools</th>
     </tr>
     <tr>
-        <td rowspan="2">
+        <td rowspan="4">
             <strong>RV.3.1</strong>:
             <p>: Analyze identified vulnerabilities to determine their root causes.</p>
         </td>
@@ -112,7 +119,7 @@ Help reduce the frequency of vulnerabilities in the future.
         </td>
     </tr>
     <tr>
-        <td rowspan="2">
+        <td rowspan="4">
             <strong>RV.3.2</strong>:
             <p>Analyze the root causes over time to identify patterns, such as a particular secure coding practice not
                 being followed consistently.</p>
@@ -123,7 +130,7 @@ Help reduce the frequency of vulnerabilities in the future.
         </td>
     </tr>
     <tr>
-        <td rowspan="2">
+        <td rowspan="4">
             <strong>RV.3.3</strong>:
             <p>Review the software for similar vulnerabilities to eradicate a class of vulnerabilities, and proactively
                 fix them rather than waiting for external reports.</p>
@@ -134,7 +141,7 @@ Help reduce the frequency of vulnerabilities in the future.
         </td>
     </tr>
     <tr>
-        <td rowspan="2">
+        <td rowspan="4">
             <strong>RV.3.4</strong>:
             <p>Review the SDLC process, and update it if appropriate to prevent (or reduce the likelihood of) the root
                 cause recurring in updates to the software or in new software that is created.</p>
@@ -147,22 +154,7 @@ Help reduce the frequency of vulnerabilities in the future.
 </table>
 <br>
 
-_Static Application Security Testing (SAST):_
-
-- [Semgrep](https://semgrep.dev/)
-- [SonarQube](https://www.sonarqube.org/)
-- [CodeQL](https://codeql.github.com/)
-
-_Dynamic Application Security Testing (DAST):_
-
-- [OWASP ZAP](https://www.zaproxy.org/)
-- [w3af](https://github.com/andresriancho/w3af)
-
-_Software Composition Analysis (SCA):_
-
-- [OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/)
-- [Trivy]( https://github.com/aquasecurity/trivy)
-- [Grype](https://github.com/anchore/grype)
+_
 
 **RV.2 Assess, Prioritize, and Remediate Vulnerabilities**
 
