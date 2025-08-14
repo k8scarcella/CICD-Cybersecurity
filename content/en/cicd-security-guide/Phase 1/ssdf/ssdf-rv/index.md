@@ -27,11 +27,10 @@ Help ensure that vulnerabilities are identified more quickly so that they can be
                 software and third-party components that the software uses, and investigate all credible reports.</p>
         </td>
         <td>
-      <a href="https://www.cve-search.org/"> cve-search</a>
       <a href="https://osv.dev/"> OSV.dev</a>
-      <a href="https://vulners.com/"> Vulners</a>
+
       </a>
-      <p>cve-search, OSV.dev, and Vulners provide APIs for real-time vulnerability data that can be integrated into a CI/CD pipeline to automatically flag risky dependencies during builds.</p>
+      <p>OSV.dev provides APIs for real-time vulnerability data that can be integrated into a CI/CD pipeline to automatically flag risky dependencies during builds.</p>
     </td>
     </tr>
     <tr>
