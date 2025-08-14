@@ -29,7 +29,7 @@ Help ensure that vulnerabilities are identified more quickly so that they can be
         <td>
       <a href="https://osv.dev/"> OSV.dev</a>
 
-      </a>
+ </a>
       <p>OSV.dev provides APIs for real-time vulnerability data that can be integrated into a CI/CD pipeline to automatically flag risky dependencies during builds.</p>
     </td>
     </tr>
